@@ -2,25 +2,24 @@ import logging
 import os
 
 
-class LogGen:
+class AutomationLogger:
 
     @staticmethod
-    def loggen():
-        log_dir = "logs"
-        if not os.path.exists(log_dir):
-            os.makedirs(log_dir)
+    def get_logger(name="Automation"):
 
-        logger = logging.getLogger()
+        if not os.path.exists("logs"):
+            os.makedirs("logs")
+
+        logger = logging.getLogger(name)
         logger.setLevel(logging.INFO)
 
-        if not logger.handlers:
-            file_handler = logging.FileHandler(
-                "logs/automation.log"
-            )
-            formatter = logging.Formatter(
-                "%(asctime)s - %(levelname)s - %(message)s"
-            )
+        # Clear existing handlers to prevent duplicate log lines
+        if logger.hasHandlers():
+            logger.handlers.clear()
 
-            file_handler.setFormatter(formatter)
-            logger.addHandler(file_handler)
+        file_handler = logging.FileHandler("logs/automation.log")
+        formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+        file_handler.setFormatter(formatter)
+        logger.addHandler(file_handler)
+
         return logger
