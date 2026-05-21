@@ -105,13 +105,23 @@ def pytest_runtest_makereport(item):
             )
 
 
-# AUTO OPEN ALLURE REPORT
 def pytest_unconfigure(config):
-    print(
-        "\n======= TESTS COMPLETED - OPENING ALLURE REPORT ======="
-    )
+    import os
+    import subprocess
 
-    # Optional: You can comment this out tonight if you are using --html=automation_report.html
-    os.system(
-        "allure serve reports/allure-results"
-    )
+    print("\n===== TESTS COMPLETED - GENERATING ALLURE REPORT =====")
+
+    results_dir = "reports/allure-results"
+
+    # Absolute path to your allure batch file
+    allure_path = r"C:\allure\bin\allure.bat"
+
+    if os.path.exists(results_dir) and os.listdir(results_dir):
+        if os.path.exists(allure_path):
+            print("Launching Allure server...")
+            # Wrapping the executable path cleanly in double quotes handles any Windows string parsing bugs
+            subprocess.Popen(f'"{allure_path}" serve "{results_dir}"', shell=True)
+        else:
+            print(f"Error: Allure was not found at {allure_path}. Please check your installation directory.")
+    else:
+        print(f"Error: The directory '{results_dir}' was not found or is empty.")

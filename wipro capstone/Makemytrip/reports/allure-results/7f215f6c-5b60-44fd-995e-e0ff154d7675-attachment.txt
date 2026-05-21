@@ -1,0 +1,9 @@
+[32mINFO    [0m Conftest:conftest.py:18 ========== STARTING TEST ==========
+[32mINFO    [0m Conftest:conftest.py:28 OPENING MAKEMYTRIP WEBSITE
+[32mINFO    [0m Conftest:conftest.py:37 CURRENT URL: https://www.makemytrip.com/hotels/
+[32mINFO    [0m TestMakeMyTrip:test_mmt.py:19 ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+[32mINFO    [0m HomePage:home_page.py:43 Checking for the presence of the authentication intercept overlay frame...
+[32mINFO    [0m HomePage:home_page.py:49 Authentication layout modal dismissed successfully.
+[32mINFO    [0m HomePage:home_page.py:55 Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+[32mINFO    [0m Conftest:conftest.py:43 ========== CLOSING TEST ==========
+[32mINFO    [0m Conftest:conftest.py:49 BROWSER CLOSED SUCCESSFULLY

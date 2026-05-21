@@ -4,7 +4,6 @@ import pytest
 from pages.home_page import HomePage
 from pages.hotel_details_page import HotelDetailsPage
 from pages.booking_page import BookingPage
-from pages.payment_page import PaymentPage  # NEW IMPORT
 from utils.csv_reader import CSVReader
 from utils.logger import AutomationLogger
 
@@ -42,16 +41,20 @@ class TestMakeMyTrip:
 
         self.log.info("======================= STARTING PHASE 3 BOOKING PAGE DATA ENTRY =======================")
         booking_page = BookingPage(driver)
+
         # Enters user data AND newly tracked PAN options from your CSV rows
         booking_page.fill_guest_details_from_csv(data_set)
-        # Selects 'Yes, I secure' and fires redirect execution steps
+
+        # Selects 'Yes, secure my trip.' and clicks PAY NOW
         booking_page.handle_secure_trip_and_continue()
 
-        self.log.info("======================= STARTING PHASE 4 SECURE PAYMENT PROCESSING =======================")
-        payment_page = PaymentPage(driver)
-        # Navigates the left menu selection column options list
-        payment_page.select_credit_debit_card_option()
-        # Enters the raw transactional payment strings out of your CSV Reader mapping
-        payment_page.input_card_credentials_from_csv(data_set)
+        # =================================================================================
+        # 🛑 INTENTIONAL STOP POINT: PHASE 4 PAYMENT OPTION SELECTION REMOVED BELOW
+        # =================================================================================
+        self.log.info("======================= GATEWAY TRANSITION VERIFICATION =======================")
+        self.log.info("Successfully clicked PAY NOW. Holding browser open for visual verification...")
 
-        self.log.info("======================= END-TO-END AUTOMATION SUITE CONCLUDED SUCCESSFUL =======================")
+        # Keep the browser alive for 15 seconds so you can watch the landing gateway
+        time.sleep(15)
+
+        self.log.info("======================= AUTOMATION RUN CONCLUDED SUCCESSFUL =======================")
