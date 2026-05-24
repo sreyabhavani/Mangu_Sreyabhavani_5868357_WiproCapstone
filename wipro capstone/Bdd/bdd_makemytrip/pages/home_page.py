@@ -1,8 +1,11 @@
+
+
 # pages/home_page.py
 from pages.base_page import BasePage
 from locators.home_page_locators import HomePageLocators as Locators
 from utils.logger import LogGen
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
 import time
 from utils.waits_util import WaitUtils
 
@@ -68,21 +71,22 @@ class HomePage(BasePage):
             suggestion = WaitUtils.wait_for_element_clickable(self.driver, Locators.FIRST_SUGGESTION)
             suggestion.click()
             self.log.info(f"Successfully selected: {destination}")
+            time.sleep(2)  # Give React time to expand the automatic calendar view window
         except Exception as e:
             self.log.warning(f"Suggestion click failed, trying keyboard fallback: {str(e)}")
             input_element.send_keys(Keys.DOWN)
             input_element.send_keys(Keys.ENTER)
 
     def select_stay_dates(self):
-        """Bypasses custom date entry entirely. Bypasses the automatically opened calendar modal by focusing on guest options."""
-        self.log.info("Bypassing date selection entirely to preserve website default options.")
+        """Bypasses custom date entry safely by forcing the auto-opened calendar popup to close."""
+        self.log.info("Dismissing auto-opened calendar overlay via neutral background window click context...")
         try:
-            # We target the guest count wrapper field. Clicking this safely forces the calendar modal to close.
-            guest_trigger = self.driver.find_element(*Locators.GUESTS_APPLY_BUTTON)
-            self.driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", guest_trigger)
-            time.sleep(1)
-        except Exception:
-            pass
+            # We click a clean blank spot near the top corner of the viewport layout.
+            # This triggers a blur event inside React, cleanly collapsing the calendar without modifying default selections.
+            ActionChains(self.driver).move_to_location(10, 10).click().perform()
+            time.sleep(2)
+        except Exception as e:
+            self.log.warning(f"Could not dismiss calendar view using ActionChains fallback coordinate: {str(e)}")
 
     def configure_guests_and_apply(self):
         self.log.info("Confirming existing guest configurations...")
@@ -95,6 +99,14 @@ class HomePage(BasePage):
             self.log.warning("Guest apply button already processed or omitted from layout view context.")
 
     def trigger_search_query_negative_bypass(self):
-        self.log.info("Triggering search query...")
+        self.log.info("Ensuring focused overlay fields are completely clear before submission...")
+        try:
+            # Final verification click to close out any lingering panel focused inputs
+            ActionChains(self.driver).move_to_location(15, 15).click().perform()
+            time.sleep(1)
+        except Exception:
+            pass
+
         search_btn = WaitUtils.wait_for_element_clickable(self.driver, Locators.HOTELS_SEARCH_BUTTON)
+        self.log.info("Dispatching final executable click mapping onto search element target.")
         self.driver.execute_script("arguments[0].click();", search_btn)

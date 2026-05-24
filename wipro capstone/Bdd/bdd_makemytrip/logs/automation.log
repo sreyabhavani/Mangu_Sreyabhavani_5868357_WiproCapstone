@@ -1671,3 +1671,501 @@ Stacktrace:
 2026-05-24 15:12:09,708 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
 2026-05-24 15:12:09,787 - INFO - ========== CLOSING SCENARIO: Hotel Booking End-to-End Flow using Single Guest Dataset ==========
 2026-05-24 15:12:13,018 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 15:19:06,186 - INFO - ========== STARTING SCENARIO: Hotel Booking End-to-End Flow using Single Guest Dataset ==========
+2026-05-24 15:19:20,396 - INFO - Implicit wait fetched : 10
+2026-05-24 15:19:20,399 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/
+2026-05-24 15:19:37,266 - INFO - CURRENT URL: https://www.makemytrip.com/
+2026-05-24 15:19:49,078 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_navigate_to_the_Ma_20260524_151948.png
+2026-05-24 15:19:49,085 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 15:19:49,118 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-24 15:19:52,126 - INFO - Waiting for element visibility: ('xpath', "//span[@data-cy='closeModal']")
+2026-05-24 15:20:02,249 - ERROR - Timeout waiting for visibility: ('xpath', "//span[@data-cy='closeModal']")
+2026-05-24 15:20:02,255 - WARNING - Overlay 'X' element not interactive or missing: Message: 
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff7128d7de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff7128d7e50+14900]
+	uc_driver!(No symbol) [0x7ff71263d5ad]
+	uc_driver!(No symbol) [0x7ff712697822]
+	uc_driver!(No symbol) [0x7ff712697b2c]
+	uc_driver!(No symbol) [0x7ff7126e7d17]
+	uc_driver!(No symbol) [0x7ff7126e486f]
+	uc_driver!(No symbol) [0x7ff712689df8]
+	uc_driver!(No symbol) [0x7ff71268ace3]
+	uc_driver!GetHandleVerifier [0x7ff712becc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff712be7375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff712c0bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff7128f6045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff7128fecec+3b79c]
+	uc_driver!GetHandleVerifier [0x7ff7128e1bc4+1e674]
+	uc_driver!GetHandleVerifier [0x7ff7128e1d54+1e804]
+	uc_driver!GetHandleVerifier [0x7ff7128c60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff8b85d7374+14]
+	ntdll!RtlUserThreadStart [0x7ff8b8b1cc91+21]
+
+2026-05-24 15:20:02,270 - INFO - Timeout fetched : 15
+2026-05-24 15:20:02,270 - INFO - Waiting for element visibility: ('xpath', "//div[@data-cy='landingContainer']")
+2026-05-24 15:20:02,382 - INFO - Bypassed layout container via generic structural window click fallback loop.
+2026-05-24 15:20:05,383 - INFO - Navigating into the MakeMyTrip Hotels workspace panel...
+2026-05-24 15:20:05,387 - INFO - Timeout fetched : 15
+2026-05-24 15:20:05,388 - INFO - Waiting for element clickable: ('xpath', "//li[@data-cy='menu_Hotels']")
+2026-05-24 15:20:11,033 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_dismiss_the_login__20260524_152010.png
+2026-05-24 15:20:11,033 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 15:20:11,041 - INFO - Attempting to type: Bali
+2026-05-24 15:20:11,041 - INFO - Timeout fetched : 15
+2026-05-24 15:20:11,041 - INFO - Waiting for element clickable: ('xpath', "//span[@data-cy='hotelCityLabel']")
+2026-05-24 15:20:11,528 - INFO - Timeout fetched : 15
+2026-05-24 15:20:11,531 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Where do you want to stay?']")
+2026-05-24 15:20:15,705 - INFO - Timeout fetched : 15
+2026-05-24 15:20:15,705 - INFO - Waiting for element clickable: ('xpath', "//ul[contains(@class,'react-autosuggest__suggestions-list')]/li[1]")
+2026-05-24 15:20:16,529 - INFO - Successfully selected: Bali
+2026-05-24 15:20:16,891 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_search_for_the_hot_20260524_152016.png
+2026-05-24 15:20:16,891 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 15:20:16,897 - INFO - Bypassing date selection entirely to preserve website default options.
+2026-05-24 15:20:26,977 - INFO - Confirming existing guest configurations...
+2026-05-24 15:20:26,978 - INFO - Waiting for element clickable: ('xpath', "//button[@data-cy='doneBtn']")
+2026-05-24 15:20:36,998 - ERROR - Timeout waiting for clickable: ('xpath', "//button[@data-cy='doneBtn']")
+2026-05-24 15:20:36,999 - WARNING - Guest apply button already processed or omitted from layout view context.
+2026-05-24 15:20:37,145 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_select_stay_dates__20260524_152037.png
+2026-05-24 15:20:37,145 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 15:20:37,151 - INFO - Triggering search query...
+2026-05-24 15:20:37,152 - INFO - Timeout fetched : 15
+2026-05-24 15:20:37,152 - INFO - Waiting for element clickable: ('xpath', "//button[@data-cy='submit']")
+2026-05-24 15:20:45,689 - ERROR - SCREENSHOT FAILED: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=148.0.7778.179); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff7128d7de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff7128d7e50+14900]
+	uc_driver!(No symbol) [0x7ff71263d5ad]
+	uc_driver!(No symbol) [0x7ff712628a92]
+	uc_driver!(No symbol) [0x7ff71264ee6c]
+	uc_driver!(No symbol) [0x7ff7126c71b0]
+	uc_driver!(No symbol) [0x7ff7126e4172]
+	uc_driver!(No symbol) [0x7ff712689df8]
+	uc_driver!(No symbol) [0x7ff71268ace3]
+	uc_driver!GetHandleVerifier [0x7ff712becc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff712be7375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff712c0bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff7128f6045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff7128fecec+3b79c]
+	uc_driver!GetHandleVerifier [0x7ff7128e1bc4+1e674]
+	uc_driver!GetHandleVerifier [0x7ff7128e1d54+1e804]
+	uc_driver!GetHandleVerifier [0x7ff7128c60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff8b85d7374+14]
+	ntdll!RtlUserThreadStart [0x7ff8b8b1cc91+21]
+
+2026-05-24 15:20:47,697 - INFO - Applying 5-Star hotel results modifier...
+2026-05-24 15:20:47,697 - INFO - Waiting for element presence: ('xpath', "//span[text()='5 Star']")
+2026-05-24 15:20:47,702 - INFO - Waiting for element presence: ('xpath', "//label[contains(., '5 Star')]")
+2026-05-24 15:20:47,704 - INFO - Waiting for element presence: ('xpath', "//label[contains(@for, '5')]")
+2026-05-24 15:20:52,712 - ERROR - SCREENSHOT FAILED: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff7128d7de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff7128d7e50+14900]
+	uc_driver!(No symbol) [0x7ff71263d396]
+	uc_driver!(No symbol) [0x7ff712688e76]
+	uc_driver!(No symbol) [0x7ff7126bff62]
+	uc_driver!(No symbol) [0x7ff7126b9d7f]
+	uc_driver!(No symbol) [0x7ff7126b9543]
+	uc_driver!(No symbol) [0x7ff712606325]
+	uc_driver!GetHandleVerifier [0x7ff712becc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff712be7375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff712c0bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff7128f6045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff7128fecec+3b79c]
+	uc_driver!(No symbol) [0x7ff7126050bc]
+	uc_driver!GetHandleVerifier [0x7ff712d50b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7ff8b85d7374+14]
+	ntdll!RtlUserThreadStart [0x7ff8b8b1cc91+21]
+
+2026-05-24 15:20:52,812 - ERROR - SCREENSHOT FAILED: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff7128d7de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff7128d7e50+14900]
+	uc_driver!(No symbol) [0x7ff71263d396]
+	uc_driver!(No symbol) [0x7ff712688e76]
+	uc_driver!(No symbol) [0x7ff7126bff62]
+	uc_driver!(No symbol) [0x7ff7126b9d7f]
+	uc_driver!(No symbol) [0x7ff7126b9543]
+	uc_driver!(No symbol) [0x7ff712606325]
+	uc_driver!GetHandleVerifier [0x7ff712becc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff712be7375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff712c0bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff7128f6045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff7128fecec+3b79c]
+	uc_driver!(No symbol) [0x7ff7126050bc]
+	uc_driver!GetHandleVerifier [0x7ff712d50b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7ff8b85d7374+14]
+	ntdll!RtlUserThreadStart [0x7ff8b8b1cc91+21]
+
+2026-05-24 15:20:52,829 - INFO - ========== CLOSING SCENARIO: Hotel Booking End-to-End Flow using Single Guest Dataset ==========
+2026-05-24 15:20:56,247 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 15:26:57,935 - INFO - ========== STARTING SCENARIO: Hotel Booking End-to-End Flow using Single Guest Dataset ==========
+2026-05-24 15:27:14,701 - INFO - Implicit wait fetched : 10
+2026-05-24 15:27:14,707 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/
+2026-05-24 15:27:22,449 - INFO - CURRENT URL: https://www.makemytrip.com/
+2026-05-24 15:27:27,521 - ERROR - SCREENSHOT FAILED: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff6c2557de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff6c2557e50+14900]
+	uc_driver!(No symbol) [0x7ff6c22bd396]
+	uc_driver!(No symbol) [0x7ff6c2308e76]
+	uc_driver!(No symbol) [0x7ff6c233ff62]
+	uc_driver!(No symbol) [0x7ff6c2339d7f]
+	uc_driver!(No symbol) [0x7ff6c2339543]
+	uc_driver!(No symbol) [0x7ff6c2286325]
+	uc_driver!GetHandleVerifier [0x7ff6c286cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff6c2867375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff6c288bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff6c2576045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff6c257ecec+3b79c]
+	uc_driver!(No symbol) [0x7ff6c22850bc]
+	uc_driver!GetHandleVerifier [0x7ff6c29d0b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7ff8b85d7374+14]
+	ntdll!RtlUserThreadStart [0x7ff8b8b1cc91+21]
+
+2026-05-24 15:27:27,532 - INFO - ========== CLOSING SCENARIO: Hotel Booking End-to-End Flow using Single Guest Dataset ==========
+2026-05-24 15:27:32,377 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 15:43:27,192 - INFO - ========== STARTING SCENARIO: Hotel Booking End-to-End Flow using Single Guest Dataset ==========
+2026-05-24 15:43:48,692 - INFO - Implicit wait fetched : 10
+2026-05-24 15:43:48,701 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/
+2026-05-24 15:44:01,208 - INFO - CURRENT URL: https://www.makemytrip.com/
+2026-05-24 15:44:13,163 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_navigate_to_the_Ma_20260524_154412.png
+2026-05-24 15:44:13,166 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 15:44:13,191 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-24 15:44:16,198 - INFO - Waiting for element visibility: ('xpath', "//span[@data-cy='closeModal']")
+2026-05-24 15:44:26,373 - ERROR - Timeout waiting for visibility: ('xpath', "//span[@data-cy='closeModal']")
+2026-05-24 15:44:26,375 - WARNING - Overlay 'X' element not interactive or missing: Message: 
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff7d73b7de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff7d73b7e50+14900]
+	uc_driver!(No symbol) [0x7ff7d711d5ad]
+	uc_driver!(No symbol) [0x7ff7d7177822]
+	uc_driver!(No symbol) [0x7ff7d7177b2c]
+	uc_driver!(No symbol) [0x7ff7d71c7d17]
+	uc_driver!(No symbol) [0x7ff7d71c486f]
+	uc_driver!(No symbol) [0x7ff7d7169df8]
+	uc_driver!(No symbol) [0x7ff7d716ace3]
+	uc_driver!GetHandleVerifier [0x7ff7d76ccc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff7d76c7375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff7d76ebc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff7d73d6045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff7d73decec+3b79c]
+	uc_driver!GetHandleVerifier [0x7ff7d73c1bc4+1e674]
+	uc_driver!GetHandleVerifier [0x7ff7d73c1d54+1e804]
+	uc_driver!GetHandleVerifier [0x7ff7d73a60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff8b85d7374+14]
+	ntdll!RtlUserThreadStart [0x7ff8b8b1cc91+21]
+
+2026-05-24 15:44:26,380 - INFO - Timeout fetched : 15
+2026-05-24 15:44:26,380 - INFO - Waiting for element visibility: ('xpath', "//div[@data-cy='landingContainer']")
+2026-05-24 15:44:26,496 - INFO - Bypassed layout container via generic structural window click fallback loop.
+2026-05-24 15:44:29,498 - INFO - Navigating into the MakeMyTrip Hotels workspace panel...
+2026-05-24 15:44:29,501 - INFO - Timeout fetched : 15
+2026-05-24 15:44:29,502 - INFO - Waiting for element clickable: ('xpath', "//li[@data-cy='menu_Hotels']")
+2026-05-24 15:44:35,854 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_dismiss_the_login__20260524_154435.png
+2026-05-24 15:44:35,854 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 15:44:35,879 - INFO - Attempting to type: Bali
+2026-05-24 15:44:35,880 - INFO - Timeout fetched : 15
+2026-05-24 15:44:35,881 - INFO - Waiting for element clickable: ('xpath', "//span[@data-cy='hotelCityLabel']")
+2026-05-24 15:44:36,464 - INFO - Timeout fetched : 15
+2026-05-24 15:44:36,465 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Where do you want to stay?']")
+2026-05-24 15:44:40,954 - INFO - Timeout fetched : 15
+2026-05-24 15:44:40,956 - INFO - Waiting for element clickable: ('xpath', "//ul[contains(@class,'react-autosuggest__suggestions-list')]/li[1]")
+2026-05-24 15:44:41,572 - INFO - Successfully selected: Bali
+2026-05-24 15:44:41,938 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_search_for_the_hot_20260524_154441.png
+2026-05-24 15:44:41,938 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 15:44:41,943 - INFO - Bypassing date selection entirely to preserve website default options.
+2026-05-24 15:44:51,995 - INFO - Confirming existing guest configurations...
+2026-05-24 15:44:51,995 - INFO - Waiting for element clickable: ('xpath', "//button[@data-cy='doneBtn']")
+2026-05-24 15:45:02,066 - ERROR - Timeout waiting for clickable: ('xpath', "//button[@data-cy='doneBtn']")
+2026-05-24 15:45:02,066 - WARNING - Guest apply button already processed or omitted from layout view context.
+2026-05-24 15:45:02,285 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_select_stay_dates__20260524_154502.png
+2026-05-24 15:45:02,285 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 15:45:02,366 - INFO - Triggering search query...
+2026-05-24 15:45:02,366 - INFO - Timeout fetched : 15
+2026-05-24 15:45:02,366 - INFO - Waiting for element clickable: ('xpath', "//button[@data-cy='submit']")
+2026-05-24 15:45:11,001 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_trigger_the_search_20260524_154510.png
+2026-05-24 15:45:11,002 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 15:45:23,075 - INFO - Applying 5-Star hotel results modifier...
+2026-05-24 15:45:23,088 - INFO - Waiting for element presence: ('xpath', "//span[text()='5 Star']")
+2026-05-24 15:45:33,108 - ERROR - Timeout waiting for presence: ('xpath', "//span[text()='5 Star']")
+2026-05-24 15:45:33,108 - INFO - Waiting for element presence: ('xpath', "//label[contains(., '5 Star')]")
+2026-05-24 15:45:43,121 - ERROR - Timeout waiting for presence: ('xpath', "//label[contains(., '5 Star')]")
+2026-05-24 15:45:43,122 - INFO - Waiting for element presence: ('xpath', "//label[contains(@for, '5')]")
+2026-05-24 15:45:53,207 - ERROR - Timeout waiting for presence: ('xpath', "//label[contains(@for, '5')]")
+2026-05-24 15:45:58,214 - ERROR - SCREENSHOT FAILED: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=148.0.7778.179); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff7d73b7de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff7d73b7e50+14900]
+	uc_driver!(No symbol) [0x7ff7d711d5ad]
+	uc_driver!(No symbol) [0x7ff7d7108a92]
+	uc_driver!(No symbol) [0x7ff7d712ee6c]
+	uc_driver!(No symbol) [0x7ff7d71a71b0]
+	uc_driver!(No symbol) [0x7ff7d71c4172]
+	uc_driver!(No symbol) [0x7ff7d7169df8]
+	uc_driver!(No symbol) [0x7ff7d716ace3]
+	uc_driver!GetHandleVerifier [0x7ff7d76ccc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff7d76c7375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff7d76ebc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff7d73d6045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff7d73decec+3b79c]
+	uc_driver!GetHandleVerifier [0x7ff7d73c1bc4+1e674]
+	uc_driver!GetHandleVerifier [0x7ff7d73c1d54+1e804]
+	uc_driver!GetHandleVerifier [0x7ff7d73a60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff8b85d7374+14]
+	ntdll!RtlUserThreadStart [0x7ff8b8b1cc91+21]
+
+2026-05-24 15:45:58,319 - ERROR - SCREENSHOT FAILED: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff7d73b7de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff7d73b7e50+14900]
+	uc_driver!(No symbol) [0x7ff7d711d396]
+	uc_driver!(No symbol) [0x7ff7d7168e76]
+	uc_driver!(No symbol) [0x7ff7d719ff62]
+	uc_driver!(No symbol) [0x7ff7d7199d7f]
+	uc_driver!(No symbol) [0x7ff7d7199543]
+	uc_driver!(No symbol) [0x7ff7d70e6325]
+	uc_driver!GetHandleVerifier [0x7ff7d76ccc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff7d76c7375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff7d76ebc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff7d73d6045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff7d73decec+3b79c]
+	uc_driver!(No symbol) [0x7ff7d70e50bc]
+	uc_driver!GetHandleVerifier [0x7ff7d7830b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7ff8b85d7374+14]
+	ntdll!RtlUserThreadStart [0x7ff8b8b1cc91+21]
+
+2026-05-24 15:45:58,330 - INFO - ========== CLOSING SCENARIO: Hotel Booking End-to-End Flow using Single Guest Dataset ==========
+2026-05-24 15:46:02,132 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 15:51:44,811 - INFO - ========== STARTING SCENARIO: Hotel Booking End-to-End Flow using Single Guest Dataset ==========
+2026-05-24 15:51:44,815 - INFO - ========== CLOSING SCENARIO: Hotel Booking End-to-End Flow using Single Guest Dataset ==========
+2026-05-24 15:54:01,937 - INFO - ========== STARTING SCENARIO: Hotel Booking End-to-End Flow using Single Guest Dataset ==========
+2026-05-24 15:54:01,940 - INFO - ========== CLOSING SCENARIO: Hotel Booking End-to-End Flow using Single Guest Dataset ==========
+2026-05-24 16:00:03,195 - INFO - ========== STARTING SCENARIO: Hotel Booking End-to-End Flow using Single Guest Dataset ==========
+2026-05-24 16:00:11,843 - INFO - Implicit wait fetched : 10
+2026-05-24 16:00:11,845 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/
+2026-05-24 16:00:24,641 - INFO - CURRENT URL: https://www.makemytrip.com/
+2026-05-24 16:00:36,795 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_navigate_to_the_Ma_20260524_160036.png
+2026-05-24 16:00:36,799 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 16:00:36,807 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-24 16:00:39,809 - INFO - Waiting for element visibility: ('xpath', "//span[@data-cy='closeModal']")
+2026-05-24 16:00:49,865 - ERROR - Timeout waiting for visibility: ('xpath', "//span[@data-cy='closeModal']")
+2026-05-24 16:00:49,866 - WARNING - Overlay 'X' element not interactive or missing: Message: 
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff6667d7de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff6667d7e50+14900]
+	uc_driver!(No symbol) [0x7ff66653d5ad]
+	uc_driver!(No symbol) [0x7ff666597822]
+	uc_driver!(No symbol) [0x7ff666597b2c]
+	uc_driver!(No symbol) [0x7ff6665e7d17]
+	uc_driver!(No symbol) [0x7ff6665e486f]
+	uc_driver!(No symbol) [0x7ff666589df8]
+	uc_driver!(No symbol) [0x7ff66658ace3]
+	uc_driver!GetHandleVerifier [0x7ff666aecc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff666ae7375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff666b0bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff6667f6045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff6667fecec+3b79c]
+	uc_driver!GetHandleVerifier [0x7ff6667e1bc4+1e674]
+	uc_driver!GetHandleVerifier [0x7ff6667e1d54+1e804]
+	uc_driver!GetHandleVerifier [0x7ff6667c60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff8b85d7374+14]
+	ntdll!RtlUserThreadStart [0x7ff8b8b1cc91+21]
+
+2026-05-24 16:00:49,868 - INFO - Timeout fetched : 15
+2026-05-24 16:00:49,868 - INFO - Waiting for element visibility: ('xpath', "//div[@data-cy='landingContainer']")
+2026-05-24 16:00:49,961 - INFO - Bypassed layout container via generic structural window click fallback loop.
+2026-05-24 16:00:52,968 - INFO - Navigating into the MakeMyTrip Hotels workspace panel...
+2026-05-24 16:00:52,969 - INFO - Timeout fetched : 15
+2026-05-24 16:00:52,970 - INFO - Waiting for element clickable: ('xpath', "//li[@data-cy='menu_Hotels']")
+2026-05-24 16:00:58,434 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_dismiss_the_login__20260524_160058.png
+2026-05-24 16:00:58,435 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 16:00:58,439 - INFO - Attempting to type: Bali
+2026-05-24 16:00:58,439 - INFO - Timeout fetched : 15
+2026-05-24 16:00:58,440 - INFO - Waiting for element clickable: ('xpath', "//span[@data-cy='hotelCityLabel']")
+2026-05-24 16:00:58,609 - INFO - Timeout fetched : 15
+2026-05-24 16:00:58,611 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Where do you want to stay?']")
+2026-05-24 16:01:01,533 - INFO - Timeout fetched : 15
+2026-05-24 16:01:01,534 - INFO - Waiting for element clickable: ('xpath', "//ul[contains(@class,'react-autosuggest__suggestions-list')]/li[1]")
+2026-05-24 16:01:01,773 - INFO - Successfully selected: Bali
+2026-05-24 16:01:03,907 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_search_for_the_hot_20260524_160103.png
+2026-05-24 16:01:03,908 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 16:01:03,911 - INFO - Dismissing auto-opened calendar overlay via neutral background window click context...
+2026-05-24 16:01:03,918 - WARNING - Could not dismiss calendar view using ActionChains fallback coordinate: 'ActionChains' object has no attribute 'move_to_location'
+2026-05-24 16:01:03,919 - INFO - Confirming existing guest configurations...
+2026-05-24 16:01:03,919 - INFO - Waiting for element clickable: ('xpath', "//button[@data-cy='doneBtn']")
+2026-05-24 16:01:13,931 - ERROR - Timeout waiting for clickable: ('xpath', "//button[@data-cy='doneBtn']")
+2026-05-24 16:01:13,931 - WARNING - Guest apply button already processed or omitted from layout view context.
+2026-05-24 16:01:14,085 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_select_stay_dates__20260524_160113.png
+2026-05-24 16:01:14,085 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 16:01:14,091 - INFO - Ensuring focused overlay fields are completely clear before submission...
+2026-05-24 16:01:14,091 - INFO - Timeout fetched : 15
+2026-05-24 16:01:14,091 - INFO - Waiting for element clickable: ('xpath', "//button[@data-cy='submit']")
+2026-05-24 16:01:14,139 - INFO - Dispatching final executable click mapping onto search element target.
+2026-05-24 16:01:14,594 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_trigger_the_search_20260524_160114.png
+2026-05-24 16:01:14,594 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 16:01:26,674 - INFO - Applying 5-Star hotel results modifier...
+2026-05-24 16:01:26,675 - INFO - Waiting for element presence: ('xpath', "//span[text()='5 Star']")
+2026-05-24 16:01:36,711 - ERROR - Timeout waiting for presence: ('xpath', "//span[text()='5 Star']")
+2026-05-24 16:01:36,711 - INFO - Waiting for element presence: ('xpath', "//label[contains(., '5 Star')]")
+2026-05-24 16:01:46,764 - ERROR - Timeout waiting for presence: ('xpath', "//label[contains(., '5 Star')]")
+2026-05-24 16:01:46,764 - INFO - Waiting for element presence: ('xpath', "//label[contains(@for, '5')]")
+2026-05-24 16:01:56,781 - ERROR - Timeout waiting for presence: ('xpath', "//label[contains(@for, '5')]")
+2026-05-24 16:02:01,887 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_apply_the_5-star_f_20260524_160201.png
+2026-05-24 16:02:01,887 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 16:02:09,166 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-24 16:02:19,305 - ERROR - SCREENSHOT FAILED: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff6667d7de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff6667d7e50+14900]
+	uc_driver!(No symbol) [0x7ff66653d396]
+	uc_driver!(No symbol) [0x7ff666588e76]
+	uc_driver!(No symbol) [0x7ff6665bff62]
+	uc_driver!(No symbol) [0x7ff6665b9d7f]
+	uc_driver!(No symbol) [0x7ff6665b9543]
+	uc_driver!(No symbol) [0x7ff666506325]
+	uc_driver!GetHandleVerifier [0x7ff666aecc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff666ae7375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff666b0bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff6667f6045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff6667fecec+3b79c]
+	uc_driver!(No symbol) [0x7ff6665050bc]
+	uc_driver!GetHandleVerifier [0x7ff666c50b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7ff8b85d7374+14]
+	ntdll!RtlUserThreadStart [0x7ff8b8b1cc91+21]
+
+2026-05-24 16:02:19,318 - INFO - ========== CLOSING SCENARIO: Hotel Booking End-to-End Flow using Single Guest Dataset ==========
+2026-05-24 16:02:22,266 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 16:04:13,632 - INFO - ========== STARTING SCENARIO: Hotel Booking End-to-End Flow using Single Guest Dataset ==========
+2026-05-24 16:04:23,525 - INFO - Implicit wait fetched : 10
+2026-05-24 16:04:23,535 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/
+2026-05-24 16:04:31,861 - INFO - CURRENT URL: https://www.makemytrip.com/
+2026-05-24 16:04:40,917 - INFO - Screenshot saved at: reports/screenshots/Status.failed_I_navigate_to_the_Ma_20260524_160440.png
+2026-05-24 16:04:40,919 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 16:04:41,019 - INFO - ========== CLOSING SCENARIO: Hotel Booking End-to-End Flow using Single Guest Dataset ==========
+2026-05-24 16:04:44,357 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 16:07:35,868 - INFO - ========== STARTING SCENARIO: Hotel Booking End-to-End Flow using Single Guest Dataset ==========
+2026-05-24 16:07:51,549 - INFO - Implicit wait fetched : 10
+2026-05-24 16:07:51,655 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/
+2026-05-24 16:08:03,980 - INFO - CURRENT URL: https://www.makemytrip.com/
+2026-05-24 16:08:09,599 - ERROR - SCREENSHOT FAILED: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff6d1987de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff6d1987e50+14900]
+	uc_driver!(No symbol) [0x7ff6d16ed396]
+	uc_driver!(No symbol) [0x7ff6d1738e76]
+	uc_driver!(No symbol) [0x7ff6d176ff62]
+	uc_driver!(No symbol) [0x7ff6d1769d7f]
+	uc_driver!(No symbol) [0x7ff6d1769543]
+	uc_driver!(No symbol) [0x7ff6d16b6325]
+	uc_driver!GetHandleVerifier [0x7ff6d1c9cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff6d1c97375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff6d1cbbc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff6d19a6045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff6d19aecec+3b79c]
+	uc_driver!(No symbol) [0x7ff6d16b50bc]
+	uc_driver!GetHandleVerifier [0x7ff6d1e00b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7ff8b85d7374+14]
+	ntdll!RtlUserThreadStart [0x7ff8b8b1cc91+21]
+
+2026-05-24 16:08:09,607 - INFO - ========== CLOSING SCENARIO: Hotel Booking End-to-End Flow using Single Guest Dataset ==========
+2026-05-24 16:08:12,562 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 16:10:51,052 - INFO - ========== STARTING SCENARIO: Hotel Booking End-to-End Flow using Single Guest Dataset ==========
+2026-05-24 16:11:04,069 - INFO - Implicit wait fetched : 10
+2026-05-24 16:11:04,071 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/
+2026-05-24 16:11:17,733 - INFO - CURRENT URL: https://www.makemytrip.com/
+2026-05-24 16:11:34,632 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_navigate_to_the_Ma_20260524_161134.png
+2026-05-24 16:11:34,637 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 16:11:34,689 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-24 16:11:37,717 - INFO - Waiting for element visibility: ('xpath', "//span[@data-cy='closeModal']")
+2026-05-24 16:11:48,018 - ERROR - Timeout waiting for visibility: ('xpath', "//span[@data-cy='closeModal']")
+2026-05-24 16:11:48,021 - WARNING - Overlay 'X' element not interactive or missing: Message: 
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff715647de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff715647e50+14900]
+	uc_driver!(No symbol) [0x7ff7153ad5ad]
+	uc_driver!(No symbol) [0x7ff715407822]
+	uc_driver!(No symbol) [0x7ff715407b2c]
+	uc_driver!(No symbol) [0x7ff715457d17]
+	uc_driver!(No symbol) [0x7ff71545486f]
+	uc_driver!(No symbol) [0x7ff7153f9df8]
+	uc_driver!(No symbol) [0x7ff7153face3]
+	uc_driver!GetHandleVerifier [0x7ff71595cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff715957375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff71597bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff715666045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff71566ecec+3b79c]
+	uc_driver!GetHandleVerifier [0x7ff715651bc4+1e674]
+	uc_driver!GetHandleVerifier [0x7ff715651d54+1e804]
+	uc_driver!GetHandleVerifier [0x7ff7156360e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ff8b85d7374+14]
+	ntdll!RtlUserThreadStart [0x7ff8b8b1cc91+21]
+
+2026-05-24 16:11:48,025 - INFO - Timeout fetched : 15
+2026-05-24 16:11:48,026 - INFO - Waiting for element visibility: ('xpath', "//div[@data-cy='landingContainer']")
+2026-05-24 16:11:48,254 - INFO - Bypassed layout container via generic structural window click fallback loop.
+2026-05-24 16:11:51,254 - INFO - Navigating into the MakeMyTrip Hotels workspace panel...
+2026-05-24 16:11:51,255 - INFO - Timeout fetched : 15
+2026-05-24 16:11:51,255 - INFO - Waiting for element clickable: ('xpath', "//li[@data-cy='menu_Hotels']")
+2026-05-24 16:11:56,822 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_dismiss_the_login__20260524_161156.png
+2026-05-24 16:11:56,823 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 16:11:56,834 - INFO - Attempting to type: Bali
+2026-05-24 16:11:56,836 - INFO - Timeout fetched : 15
+2026-05-24 16:11:56,836 - INFO - Waiting for element clickable: ('xpath', "//span[@data-cy='hotelCityLabel']")
+2026-05-24 16:11:57,215 - INFO - Timeout fetched : 15
+2026-05-24 16:11:57,216 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Where do you want to stay?']")
+2026-05-24 16:12:00,765 - INFO - Timeout fetched : 15
+2026-05-24 16:12:00,765 - INFO - Waiting for element clickable: ('xpath', "//ul[contains(@class,'react-autosuggest__suggestions-list')]/li[1]")
+2026-05-24 16:12:01,208 - INFO - Successfully selected: Bali
+2026-05-24 16:12:03,348 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_search_for_the_hot_20260524_161203.png
+2026-05-24 16:12:03,349 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 16:12:03,352 - INFO - Dismissing auto-opened calendar overlay via neutral background window click context...
+2026-05-24 16:12:03,362 - WARNING - Could not dismiss calendar view using ActionChains fallback coordinate: 'ActionChains' object has no attribute 'move_to_location'
+2026-05-24 16:12:03,363 - INFO - Confirming existing guest configurations...
+2026-05-24 16:12:03,363 - INFO - Waiting for element clickable: ('xpath', "//button[@data-cy='doneBtn']")
+2026-05-24 16:12:13,387 - ERROR - Timeout waiting for clickable: ('xpath', "//button[@data-cy='doneBtn']")
+2026-05-24 16:12:13,387 - WARNING - Guest apply button already processed or omitted from layout view context.
+2026-05-24 16:12:13,551 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_select_stay_dates__20260524_161213.png
+2026-05-24 16:12:13,552 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 16:12:13,558 - INFO - Ensuring focused overlay fields are completely clear before submission...
+2026-05-24 16:12:13,558 - INFO - Timeout fetched : 15
+2026-05-24 16:12:13,558 - INFO - Waiting for element clickable: ('xpath', "//button[@data-cy='submit']")
+2026-05-24 16:12:13,603 - INFO - Dispatching final executable click mapping onto search element target.
+2026-05-24 16:12:24,234 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_trigger_the_search_20260524_161224.png
+2026-05-24 16:12:24,234 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 16:12:30,715 - INFO - Applying 5-Star hotel results modifier...
+2026-05-24 16:12:30,716 - INFO - Waiting for element presence: ('xpath', "//span[text()='5 Star']")
+2026-05-24 16:12:47,175 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_apply_the_5-star_f_20260524_161246.png
+2026-05-24 16:12:47,176 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 16:13:01,251 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-24 16:13:20,383 - INFO - Synchronizing tab session instances...
+2026-05-24 16:13:26,429 - INFO - Waiting for element presence: ('xpath', "//button[contains(., 'BOOK THIS NOW')]")
+2026-05-24 16:13:33,274 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_select_the_first_h_20260524_161333.png
+2026-05-24 16:13:33,275 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 16:13:33,336 - INFO - Filling guest details...
+2026-05-24 16:13:33,340 - INFO - Timeout fetched : 15
+2026-05-24 16:13:33,340 - INFO - Waiting for element visibility: ('id', 'fName')
+2026-05-24 16:13:33,846 - INFO - Timeout fetched : 15
+2026-05-24 16:13:33,846 - INFO - Waiting for element visibility: ('id', 'lName')
+2026-05-24 16:13:35,016 - INFO - Timeout fetched : 15
+2026-05-24 16:13:35,017 - INFO - Waiting for element visibility: ('id', 'email')
+2026-05-24 16:13:36,102 - INFO - Timeout fetched : 15
+2026-05-24 16:13:36,102 - INFO - Waiting for element visibility: ('id', 'mNo')
+2026-05-24 16:13:36,694 - INFO - Timeout fetched : 15
+2026-05-24 16:13:36,694 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='ENTER PAN HERE' or contains(@id, 'pan')] | //input[@id='panCheck']")
+2026-05-24 16:13:37,273 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_fill_guest_details_20260524_161336.png
+2026-05-24 16:13:37,273 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 16:13:37,281 - INFO - Finalizing: Selecting insurance and paying...
+2026-05-24 16:13:39,357 - INFO - Timeout fetched : 15
+2026-05-24 16:13:39,357 - INFO - Waiting for element presence: ('xpath', "//*[contains(text(), 'Yes, secure my trip')] | //label[contains(., 'secure my trip')]")
+2026-05-24 16:13:39,496 - INFO - Timeout fetched : 15
+2026-05-24 16:13:39,496 - INFO - Waiting for element presence: ('xpath', "//a[contains(@class, 'btnContinuePayment')] | //a[contains(text(), 'Pay Now')]")
+2026-05-24 16:13:39,762 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_handle_secure_trip_20260524_161339.png
+2026-05-24 16:13:39,762 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 16:13:55,176 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_system_should_tr_20260524_161355.png
+2026-05-24 16:13:55,176 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-24 16:13:55,177 - INFO - ========== CLOSING SCENARIO: Hotel Booking End-to-End Flow using Single Guest Dataset ==========
+2026-05-24 16:13:58,566 - INFO - BROWSER CLOSED SUCCESSFULLY
