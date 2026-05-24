@@ -1,0 +1,164 @@
+2026-05-23 16:25:46,693 - INFO - ========== STARTING SCENARIO: Hotel Booking End-to-End Flow -- @1.1  ==========
+2026-05-23 16:26:01,986 - INFO - Implicit wait fetched : 10
+2026-05-23 16:26:01,998 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/
+2026-05-23 16:26:18,269 - INFO - CURRENT URL: https://www.makemytrip.com/
+2026-05-23 16:26:22,985 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_navigate_to_the_Ma_20260523_162622.png
+2026-05-23 16:26:22,985 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-23 16:26:23,011 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-23 16:26:26,013 - INFO - Waiting for element visibility: ('xpath', "//span[@data-cy='closeModal']")
+2026-05-23 16:26:26,169 - INFO - Authentication 'X' close token found. Dispatched click operation...
+2026-05-23 16:26:26,713 - INFO - Authentication layout modal dismissed successfully via 'X' element handler.
+2026-05-23 16:26:29,718 - INFO - Navigating into the MakeMyTrip Hotels workspace panel...
+2026-05-23 16:26:29,719 - INFO - Timeout fetched : 15
+2026-05-23 16:26:29,719 - INFO - Waiting for element clickable: ('xpath', "//li[@data-cy='menu_Hotels']")
+2026-05-23 16:26:35,446 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_dismiss_the_login__20260523_162635.png
+2026-05-23 16:26:35,446 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-23 16:26:35,513 - INFO - Attempting to type: Bali
+2026-05-23 16:26:35,513 - INFO - Timeout fetched : 15
+2026-05-23 16:26:35,513 - INFO - Waiting for element clickable: ('xpath', "//span[@data-cy='hotelCityLabel']")
+2026-05-23 16:26:37,315 - INFO - Timeout fetched : 15
+2026-05-23 16:26:37,317 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Where do you want to stay?']")
+2026-05-23 16:26:41,611 - INFO - Timeout fetched : 15
+2026-05-23 16:26:41,611 - INFO - Waiting for element clickable: ('xpath', "//ul[contains(@class,'react-autosuggest__suggestions-list')]/li[1]")
+2026-05-23 16:26:42,135 - INFO - Successfully selected: Bali
+2026-05-23 16:26:42,568 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_search_for_the_hot_20260523_162642.png
+2026-05-23 16:26:42,569 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-23 16:26:42,579 - INFO - Triggering search query...
+2026-05-23 16:26:42,579 - INFO - Timeout fetched : 15
+2026-05-23 16:26:42,580 - INFO - Waiting for element clickable: ('xpath', "//button[@data-cy='submit']")
+2026-05-23 16:26:52,621 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_trigger_the_search_20260523_162651.png
+2026-05-23 16:26:52,622 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-23 16:26:57,210 - INFO - Applying 5-Star hotel results modifier...
+2026-05-23 16:26:57,211 - INFO - Waiting for element presence: ('xpath', "//span[text()='5 Star']")
+2026-05-23 16:27:06,096 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_apply_the_5-star_f_20260523_162705.png
+2026-05-23 16:27:06,097 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-23 16:27:18,164 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-23 16:27:41,817 - INFO - Synchronizing tab session instances...
+2026-05-23 16:27:47,999 - INFO - Waiting for element presence: ('xpath', "//button[contains(., 'BOOK THIS NOW')]")
+2026-05-23 16:27:56,308 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_select_the_first_h_20260523_162755.png
+2026-05-23 16:27:56,314 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-23 16:27:56,384 - INFO - Loading test data from CSV: data/guest_date.csv for row 1
+2026-05-23 16:27:56,467 - INFO - CSV Data successfully loaded: {'firstName': 'Rahul', 'lastName': 'Sharma', 'email': 'rahul.sharma@example.com', 'mobileNumber': '9876543210', 'panNumber': 'ABCDE1234F'}
+2026-05-23 16:27:56,479 - INFO - Switching to the booking page tab...
+2026-05-23 16:28:03,544 - INFO - Waiting for element visibility: ('id', 'fName')
+2026-05-23 16:28:04,656 - INFO - Timeout fetched : 15
+2026-05-23 16:28:04,656 - INFO - Waiting for element visibility: ('id', 'lName')
+2026-05-23 16:28:06,910 - INFO - Timeout fetched : 15
+2026-05-23 16:28:06,910 - INFO - Waiting for element visibility: ('id', 'email')
+2026-05-23 16:28:09,664 - INFO - Timeout fetched : 15
+2026-05-23 16:28:09,666 - INFO - Waiting for element visibility: ('id', 'mNo')
+2026-05-23 16:28:10,553 - INFO - Timeout fetched : 15
+2026-05-23 16:28:10,554 - INFO - Waiting for element presence: ('xpath', "//input[@placeholder='ENTER PAN HERE' or contains(@id, 'pan')] | //input[@id='panCheck']")
+2026-05-23 16:28:31,172 - ERROR - Timeout waiting for presence: ('xpath', "//input[@placeholder='ENTER PAN HERE' or contains(@id, 'pan')] | //input[@id='panCheck']")
+2026-05-23 16:28:31,183 - ERROR - Error filling guest details: Message: 
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff73e6e49a5+15095]
+	uc_driver!GetHandleVerifier [0x7ff73e6e4a00+150f0]
+	uc_driver!(No symbol) [0x7ff73e2377fd]
+	uc_driver!(No symbol) [0x7ff73e291879]
+	uc_driver!(No symbol) [0x7ff73e291b7c]
+	uc_driver!(No symbol) [0x7ff73e2e1e47]
+	uc_driver!(No symbol) [0x7ff73e2dea13]
+	uc_driver!(No symbol) [0x7ff73e283e1c]
+	uc_driver!(No symbol) [0x7ff73e284d43]
+	uc_driver!GetHandleVerifier [0x7ff73ecc4111+5f4801]
+	uc_driver!GetHandleVerifier [0x7ff73ecbe91b+5ef00b]
+	uc_driver!GetHandleVerifier [0x7ff73ece2f95+613685]
+	uc_driver!GetHandleVerifier [0x7ff73e702d0e+333fe]
+	uc_driver!GetHandleVerifier [0x7ff73e70b7ac+3be9c]
+	uc_driver!GetHandleVerifier [0x7ff73e6ee334+1ea24]
+	uc_driver!GetHandleVerifier [0x7ff73e6ee4c4+1ebb4]
+	uc_driver!GetHandleVerifier [0x7ff73e6d1ba7+2297]
+	KERNEL32!BaseThreadInitThunk [0x7fff1b517374+14]
+	ntdll!RtlUserThreadStart [0x7fff1d1bcc91+21]
+
+2026-05-23 16:28:31,580 - INFO - Screenshot saved at: reports/screenshots/Status.error_I_fill_guest_details_20260523_162831.png
+2026-05-23 16:28:31,583 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-23 16:28:31,686 - INFO - ========== CLOSING SCENARIO: Hotel Booking End-to-End Flow -- @1.1  ==========
+2026-05-23 16:28:36,307 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 16:30:29,208 - INFO - ========== STARTING SCENARIO: Hotel Booking End-to-End Flow -- @1.1  ==========
+2026-05-23 16:30:36,966 - INFO - Implicit wait fetched : 10
+2026-05-23 16:30:36,970 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/
+2026-05-23 16:30:50,642 - INFO - CURRENT URL: https://www.makemytrip.com/
+2026-05-23 16:30:53,197 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_navigate_to_the_Ma_20260523_163052.png
+2026-05-23 16:30:53,199 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-23 16:30:53,798 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-23 16:30:56,807 - INFO - Waiting for element visibility: ('xpath', "//span[@data-cy='closeModal']")
+2026-05-23 16:30:56,891 - INFO - Authentication 'X' close token found. Dispatched click operation...
+2026-05-23 16:30:57,487 - INFO - Authentication layout modal dismissed successfully via 'X' element handler.
+2026-05-23 16:31:00,489 - INFO - Navigating into the MakeMyTrip Hotels workspace panel...
+2026-05-23 16:31:00,490 - INFO - Timeout fetched : 15
+2026-05-23 16:31:00,491 - INFO - Waiting for element clickable: ('xpath', "//li[@data-cy='menu_Hotels']")
+2026-05-23 16:31:06,222 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_dismiss_the_login__20260523_163105.png
+2026-05-23 16:31:06,223 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-23 16:31:06,256 - INFO - Attempting to type: Bali
+2026-05-23 16:31:06,257 - INFO - Timeout fetched : 15
+2026-05-23 16:31:06,258 - INFO - Waiting for element clickable: ('xpath', "//span[@data-cy='hotelCityLabel']")
+2026-05-23 16:31:06,678 - INFO - Timeout fetched : 15
+2026-05-23 16:31:06,679 - INFO - Waiting for element visibility: ('xpath', "//input[@placeholder='Where do you want to stay?']")
+2026-05-23 16:31:10,573 - INFO - Timeout fetched : 15
+2026-05-23 16:31:10,573 - INFO - Waiting for element clickable: ('xpath', "//ul[contains(@class,'react-autosuggest__suggestions-list')]/li[1]")
+2026-05-23 16:31:10,974 - INFO - Successfully selected: Bali
+2026-05-23 16:31:11,380 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_search_for_the_hot_20260523_163110.png
+2026-05-23 16:31:11,380 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-23 16:31:11,385 - INFO - Triggering search query...
+2026-05-23 16:31:11,386 - INFO - Timeout fetched : 15
+2026-05-23 16:31:11,386 - INFO - Waiting for element clickable: ('xpath', "//button[@data-cy='submit']")
+2026-05-23 16:31:18,650 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_trigger_the_search_20260523_163117.png
+2026-05-23 16:31:18,650 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-23 16:31:23,669 - INFO - Applying 5-Star hotel results modifier...
+2026-05-23 16:31:23,670 - INFO - Waiting for element presence: ('xpath', "//span[text()='5 Star']")
+2026-05-23 16:31:30,834 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_apply_the_5-star_f_20260523_163130.png
+2026-05-23 16:31:30,835 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-23 16:31:42,886 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-23 16:32:01,576 - INFO - Synchronizing tab session instances...
+2026-05-23 16:32:07,640 - INFO - Waiting for element presence: ('xpath', "//button[contains(., 'BOOK THIS NOW')]")
+2026-05-23 16:32:14,622 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_select_the_first_h_20260523_163214.png
+2026-05-23 16:32:14,623 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-23 16:32:14,635 - INFO - Loading test data from CSV: data/guest_date.csv for row 1
+2026-05-23 16:32:14,648 - INFO - CSV Data successfully loaded: {'firstName': 'Rahul', 'lastName': 'Sharma', 'email': 'rahul.sharma@example.com', 'mobileNumber': '9876543210', 'panNumber': 'ABCDE1234F'}
+2026-05-23 16:32:14,650 - INFO - Switching to the booking page tab...
+2026-05-23 16:32:21,679 - INFO - Waiting for element visibility: ('id', 'fName')
+2026-05-23 16:32:22,476 - INFO - Timeout fetched : 15
+2026-05-23 16:32:22,476 - INFO - Waiting for element visibility: ('id', 'lName')
+2026-05-23 16:32:24,243 - INFO - Timeout fetched : 15
+2026-05-23 16:32:24,243 - INFO - Waiting for element visibility: ('id', 'email')
+2026-05-23 16:32:28,436 - INFO - Timeout fetched : 15
+2026-05-23 16:32:28,437 - INFO - Waiting for element visibility: ('id', 'mNo')
+2026-05-23 16:32:29,932 - INFO - Timeout fetched : 15
+2026-05-23 16:32:29,932 - INFO - Waiting for element presence: ('xpath', "//input[@placeholder='ENTER PAN HERE' or contains(@id, 'pan')] | //input[@id='panCheck']")
+2026-05-23 16:32:31,318 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_fill_guest_details_20260523_163231.png
+2026-05-23 16:32:31,319 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-23 16:32:31,657 - INFO - Finalizing: Selecting insurance and paying...
+2026-05-23 16:32:34,047 - INFO - Waiting for element presence: ('xpath', "//*[contains(text(), 'Yes, secure my trip')] | //label[contains(., 'secure my trip')]")
+2026-05-23 16:32:36,539 - INFO - Waiting for element presence: ('xpath', "//a[contains(@class, 'btnContinuePayment')] | //a[contains(text(), 'Pay Now')]")
+2026-05-23 16:32:36,639 - INFO - Payment button clicked. Test concluding.
+2026-05-23 16:32:44,912 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_handle_secure_trip_20260523_163244.png
+2026-05-23 16:32:44,913 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-23 16:32:45,236 - INFO - Screenshot saved at: reports/screenshots/Status.passed_the_system_should_tr_20260523_163244.png
+2026-05-23 16:32:45,236 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-23 16:32:45,316 - INFO - ========== CLOSING SCENARIO: Hotel Booking End-to-End Flow -- @1.1  ==========
+2026-05-23 16:32:49,947 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 17:39:02,194 - INFO - ========== STARTING SCENARIO: 1. Positive - Standard Domestic Booking -- @1.1  ==========
+2026-05-23 17:39:08,308 - INFO - Implicit wait fetched : 10
+2026-05-23 17:39:08,320 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/
+2026-05-23 17:39:23,439 - INFO - CURRENT URL: https://www.makemytrip.com/
+2026-05-23 17:39:26,473 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_navigate_to_the_Ma_20260523_173925.png
+2026-05-23 17:39:26,476 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-23 17:39:26,691 - INFO - ========== CLOSING SCENARIO: 1. Positive - Standard Domestic Booking -- @1.1  ==========
+2026-05-23 17:39:30,732 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 17:39:30,908 - INFO - ========== STARTING SCENARIO: 2. Positive - Family Multi-Room Booking -- @1.1  ==========
+2026-05-23 17:41:01,968 - INFO - Implicit wait fetched : 10
+2026-05-23 17:41:02,255 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/
+2026-05-23 17:41:14,948 - INFO - CURRENT URL: https://www.makemytrip.com/
+2026-05-23 17:41:18,583 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_navigate_to_the_Ma_20260523_174117.png
+2026-05-23 17:41:18,624 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-23 17:41:18,883 - INFO - ========== CLOSING SCENARIO: 2. Positive - Family Multi-Room Booking -- @1.1  ==========
+2026-05-23 17:41:22,223 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 17:41:22,614 - INFO - ========== STARTING SCENARIO: 3. Positive - Corporate Business Trip Booking -- @1.1  ==========
+2026-05-23 17:41:44,584 - INFO - Implicit wait fetched : 10
+2026-05-23 17:41:44,669 - INFO - OPENING MAKEMYTRIP WEBSITE: https://www.makemytrip.com/
+2026-05-23 17:41:56,870 - INFO - CURRENT URL: https://www.makemytrip.com/
+2026-05-23 17:41:59,312 - INFO - Screenshot saved at: reports/screenshots/Status.passed_I_navigate_to_the_Ma_20260523_174158.png
+2026-05-23 17:41:59,317 - ERROR - SCREENSHOT FAILED: 'Status' object has no attribute 'upper'
+2026-05-23 17:41:59,399 - INFO - ========== CLOSING SCENARIO: 3. Positive - Corporate Business Trip Booking -- @1.1  ==========

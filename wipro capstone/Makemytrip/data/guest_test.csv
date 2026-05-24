@@ -1,0 +1,6 @@
+test_scenario,destination,first_name,last_name,email,mobile,pan_number,expected_result
+Positive_Booking_02,Bali,Amit,Kumar,amit.kumar@gmail.com,9876543210,XYZWX5678Z,Success_Redirect_To_Payment
+Positive_Booking_03,Bali,Pooja,Patel,pooja.patel@gmail.com,9112233445,LMNOP9876Q,Success_Redirect_To_Payment
+Positive_Booking_04,Bali,Vikram,Singh,vikram.singh@gmail.com,9988776655,QRSTU4321V,Success_Redirect_To_Payment
+Negative_Missing_FirstName,Bali,,Mangu,test@gmail.com,9346829784,ABCDE1234F,Blocked_Inline_Validation_Error
+Negative_Invalid_PAN_Format,Bali,Sreyabhavani,Mangu,test@gmail.com,9346829784,NOT_A_PAN,Blocked_Form_Validation_Error

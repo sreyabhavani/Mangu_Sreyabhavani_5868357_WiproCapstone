@@ -1,396 +1,1615 @@
-2026-05-21 19:46:48,014 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
-2026-05-21 19:46:48,017 - INFO - POM LOG: Successfully read 6 rows from get_test.csv
-2026-05-21 19:46:48,074 - INFO - ========== STARTING TEST ==========
-2026-05-21 19:46:56,636 - INFO - OPENING MAKEMYTRIP WEBSITE
-2026-05-21 19:47:21,975 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
-2026-05-21 19:47:22,107 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
-2026-05-21 19:47:31,900 - INFO - Checking for the presence of the authentication intercept overlay frame...
-2026-05-21 19:47:36,446 - INFO - Authentication layout modal dismissed successfully.
-2026-05-21 19:47:37,957 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
-2026-05-21 19:47:39,738 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_194738.png
-2026-05-21 19:47:39,753 - INFO - Opening query selection widget and inputting location details: Bali
-2026-05-21 19:47:50,204 - INFO - Successfully selected destination choice parameter option for: Bali
-2026-05-21 19:47:50,225 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
-2026-05-21 19:47:51,712 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
-2026-05-21 19:47:55,006 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_194753.png
-2026-05-21 19:47:55,758 - INFO - Validating guest matrix dimensions drawer and applying selection states...
-2026-05-21 19:47:58,001 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
-2026-05-21 19:48:13,814 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
-2026-05-21 19:48:14,147 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_194813.png
-2026-05-21 19:48:14,191 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
-2026-05-21 19:48:47,002 - INFO - ======================= STARTING PHASE 2 FILTER & BOOKING FLOW =======================
-2026-05-21 19:48:51,376 - INFO - Applying 5-Star hotel results modifier...
-2026-05-21 19:49:04,972 - INFO - Selecting primary top-listed hotel choice card...
-2026-05-21 19:49:18,786 - INFO - Synchronizing tab session instances...
-2026-05-21 19:49:22,834 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
-2026-05-21 19:49:26,428 - INFO - Clicking on 'BOOK THIS NOW' element...
-2026-05-21 19:49:26,744 - INFO - Successfully pushed past the hotel details view!
-2026-05-21 19:49:31,745 - INFO - ======================= STARTING PHASE 3 BOOKING PAGE DATA ENTRY =======================
-2026-05-21 19:49:31,763 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
-2026-05-21 19:49:41,072 - INFO - CSV READ: Filled PAN Details -> ABCDE1234F
-2026-05-21 19:49:41,085 - INFO - Initiating progressive scroll to load insurance and payment buttons...
-2026-05-21 19:49:46,171 - INFO - Locating 'Yes, secure my trip.' radio button...
-2026-05-21 19:49:47,490 - INFO - Successfully clicked Insurance Option!
-2026-05-21 19:49:49,493 - INFO - Locating 'Pay Now' button...
-2026-05-21 19:49:51,265 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
-2026-05-21 19:49:59,266 - INFO - ======================= GATEWAY TRANSITION VERIFICATION =======================
-2026-05-21 19:49:59,267 - INFO - Successfully clicked PAY NOW. Holding browser open for visual verification...
-2026-05-21 19:50:14,269 - INFO - ======================= AUTOMATION RUN CONCLUDED SUCCESSFUL =======================
-2026-05-21 19:50:14,331 - INFO - TEST PASSED - CAPTURING SCREENSHOT
-2026-05-21 19:50:14,569 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set0]_PASS_20260521_195014.png
-2026-05-21 19:50:14,726 - INFO - ========== CLOSING TEST ==========
-2026-05-21 19:50:21,663 - INFO - BROWSER CLOSED SUCCESSFULLY
-2026-05-21 19:50:25,530 - INFO - ========== STARTING TEST ==========
-2026-05-21 19:50:32,185 - INFO - OPENING MAKEMYTRIP WEBSITE
-2026-05-21 19:50:55,103 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
-2026-05-21 19:50:55,145 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
-2026-05-21 19:51:02,205 - INFO - Checking for the presence of the authentication intercept overlay frame...
-2026-05-21 19:51:08,140 - INFO - Authentication layout modal dismissed successfully.
-2026-05-21 19:51:09,642 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
-2026-05-21 19:51:10,912 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_195110.png
-2026-05-21 19:51:10,915 - INFO - Opening query selection widget and inputting location details: Bali
-2026-05-21 19:51:19,244 - INFO - Successfully selected destination choice parameter option for: Bali
-2026-05-21 19:51:19,245 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
-2026-05-21 19:51:20,807 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
-2026-05-21 19:51:24,255 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_195123.png
-2026-05-21 19:51:24,461 - INFO - Validating guest matrix dimensions drawer and applying selection states...
-2026-05-21 19:51:25,793 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
-2026-05-21 19:51:37,958 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
-2026-05-21 19:51:38,235 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_195137.png
-2026-05-21 19:51:38,269 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
-2026-05-21 19:51:59,670 - INFO - ======================= STARTING PHASE 2 FILTER & BOOKING FLOW =======================
-2026-05-21 19:52:04,393 - INFO - Applying 5-Star hotel results modifier...
-2026-05-21 19:52:18,269 - INFO - Selecting primary top-listed hotel choice card...
-2026-05-21 19:52:36,338 - INFO - Synchronizing tab session instances...
-2026-05-21 19:52:40,498 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
-2026-05-21 19:52:44,176 - INFO - Clicking on 'BOOK THIS NOW' element...
-2026-05-21 19:52:44,366 - INFO - Successfully pushed past the hotel details view!
-2026-05-21 19:52:49,368 - INFO - ======================= STARTING PHASE 3 BOOKING PAGE DATA ENTRY =======================
-2026-05-21 19:52:49,373 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
-2026-05-21 19:52:58,027 - INFO - CSV READ: Filled PAN Details -> XYZWX5678Z
-2026-05-21 19:52:58,034 - INFO - Initiating progressive scroll to load insurance and payment buttons...
-2026-05-21 19:53:03,110 - INFO - Locating 'Yes, secure my trip.' radio button...
-2026-05-21 19:53:04,397 - INFO - Successfully clicked Insurance Option!
-2026-05-21 19:53:06,449 - INFO - Locating 'Pay Now' button...
-2026-05-21 19:53:08,310 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
-2026-05-21 19:53:16,323 - INFO - ======================= GATEWAY TRANSITION VERIFICATION =======================
-2026-05-21 19:53:16,323 - INFO - Successfully clicked PAY NOW. Holding browser open for visual verification...
-2026-05-21 19:53:31,325 - INFO - ======================= AUTOMATION RUN CONCLUDED SUCCESSFUL =======================
-2026-05-21 19:53:31,327 - INFO - TEST PASSED - CAPTURING SCREENSHOT
-2026-05-21 19:53:31,581 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set1]_PASS_20260521_195331.png
-2026-05-21 19:53:31,678 - INFO - ========== CLOSING TEST ==========
-2026-05-21 19:53:39,260 - INFO - BROWSER CLOSED SUCCESSFULLY
-2026-05-21 19:53:39,295 - INFO - ========== STARTING TEST ==========
-2026-05-21 19:53:47,194 - INFO - OPENING MAKEMYTRIP WEBSITE
-2026-05-21 19:54:00,518 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
-2026-05-21 19:54:00,532 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
-2026-05-21 19:54:09,250 - INFO - Checking for the presence of the authentication intercept overlay frame...
-2026-05-21 19:54:12,419 - INFO - Authentication layout modal dismissed successfully.
-2026-05-21 19:54:13,925 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
-2026-05-21 19:54:19,664 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
-2026-05-21 19:54:20,019 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set2]_FAIL_20260521_195419.png
-2026-05-21 19:54:20,103 - INFO - ========== CLOSING TEST ==========
-2026-05-21 19:54:25,421 - INFO - BROWSER CLOSED SUCCESSFULLY
-2026-05-21 19:54:25,447 - INFO - ========== STARTING TEST ==========
-2026-05-21 19:54:38,184 - INFO - OPENING MAKEMYTRIP WEBSITE
-2026-05-21 19:54:53,289 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
-2026-05-21 19:54:53,303 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
-2026-05-21 19:55:03,879 - INFO - Checking for the presence of the authentication intercept overlay frame...
-2026-05-21 19:55:07,885 - INFO - Authentication layout modal dismissed successfully.
-2026-05-21 19:55:09,387 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
-2026-05-21 19:55:11,031 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_195509.png
-2026-05-21 19:55:11,076 - INFO - Opening query selection widget and inputting location details: Bali
-2026-05-21 19:55:19,470 - INFO - Successfully selected destination choice parameter option for: Bali
-2026-05-21 19:55:19,474 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
-2026-05-21 19:55:20,734 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
-2026-05-21 19:55:22,357 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_195522.png
-2026-05-21 19:55:22,370 - INFO - Validating guest matrix dimensions drawer and applying selection states...
-2026-05-21 19:55:23,814 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
-2026-05-21 19:55:53,091 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
-2026-05-21 19:55:53,319 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_195553.png
-2026-05-21 19:55:53,322 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
-2026-05-21 19:56:13,639 - INFO - ======================= STARTING PHASE 2 FILTER & BOOKING FLOW =======================
-2026-05-21 19:56:17,947 - INFO - Applying 5-Star hotel results modifier...
-2026-05-21 19:56:31,426 - INFO - Selecting primary top-listed hotel choice card...
-2026-05-21 19:56:49,038 - INFO - Synchronizing tab session instances...
-2026-05-21 19:56:53,068 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
-2026-05-21 19:56:56,712 - INFO - Clicking on 'BOOK THIS NOW' element...
-2026-05-21 19:56:56,910 - INFO - Successfully pushed past the hotel details view!
-2026-05-21 19:57:01,914 - INFO - ======================= STARTING PHASE 3 BOOKING PAGE DATA ENTRY =======================
-2026-05-21 19:57:01,921 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
-2026-05-21 19:57:13,634 - INFO - CSV READ: Filled PAN Details -> QRSTU4321V
-2026-05-21 19:57:13,642 - INFO - Initiating progressive scroll to load insurance and payment buttons...
-2026-05-21 19:57:18,971 - INFO - Locating 'Yes, secure my trip.' radio button...
-2026-05-21 19:57:20,753 - INFO - Successfully clicked Insurance Option!
-2026-05-21 19:57:22,824 - INFO - Locating 'Pay Now' button...
-2026-05-21 19:57:24,602 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
-2026-05-21 19:57:32,604 - INFO - ======================= GATEWAY TRANSITION VERIFICATION =======================
-2026-05-21 19:57:32,605 - INFO - Successfully clicked PAY NOW. Holding browser open for visual verification...
-2026-05-21 19:57:47,606 - INFO - ======================= AUTOMATION RUN CONCLUDED SUCCESSFUL =======================
-2026-05-21 19:57:47,643 - INFO - TEST PASSED - CAPTURING SCREENSHOT
-2026-05-21 19:57:47,881 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set3]_PASS_20260521_195747.png
-2026-05-21 19:57:48,078 - INFO - ========== CLOSING TEST ==========
-2026-05-21 19:57:51,276 - INFO - BROWSER CLOSED SUCCESSFULLY
-2026-05-21 19:57:52,409 - INFO - ========== STARTING TEST ==========
-2026-05-21 19:57:57,814 - INFO - OPENING MAKEMYTRIP WEBSITE
-2026-05-21 19:58:12,555 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
-2026-05-21 19:58:12,612 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
-2026-05-21 19:58:21,670 - INFO - Checking for the presence of the authentication intercept overlay frame...
-2026-05-21 19:58:27,219 - INFO - Authentication layout modal dismissed successfully.
-2026-05-21 19:58:28,721 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
-2026-05-21 19:58:32,843 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_195832.png
-2026-05-21 19:58:32,853 - INFO - Opening query selection widget and inputting location details: Bali
-2026-05-21 19:58:41,285 - INFO - Successfully selected destination choice parameter option for: Bali
-2026-05-21 19:58:41,291 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
-2026-05-21 19:58:42,607 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
-2026-05-21 19:58:45,794 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_195845.png
-2026-05-21 19:58:45,798 - INFO - Validating guest matrix dimensions drawer and applying selection states...
-2026-05-21 19:58:46,900 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
-2026-05-21 19:58:55,039 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
-2026-05-21 19:58:55,317 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_195855.png
-2026-05-21 19:58:55,321 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
-2026-05-21 19:59:19,173 - INFO - ======================= STARTING PHASE 2 FILTER & BOOKING FLOW =======================
-2026-05-21 19:59:23,520 - INFO - Applying 5-Star hotel results modifier...
-2026-05-21 19:59:37,049 - INFO - Selecting primary top-listed hotel choice card...
-2026-05-21 19:59:51,138 - INFO - Synchronizing tab session instances...
-2026-05-21 19:59:55,181 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
-2026-05-21 19:59:58,766 - INFO - Clicking on 'BOOK THIS NOW' element...
-2026-05-21 19:59:58,993 - INFO - Successfully pushed past the hotel details view!
-2026-05-21 20:00:04,022 - INFO - ======================= STARTING PHASE 3 BOOKING PAGE DATA ENTRY =======================
-2026-05-21 20:00:04,029 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
-2026-05-21 20:00:13,139 - INFO - CSV READ: Filled PAN Details -> ABCDE1234F
-2026-05-21 20:00:13,179 - INFO - Initiating progressive scroll to load insurance and payment buttons...
-2026-05-21 20:00:18,410 - INFO - Locating 'Yes, secure my trip.' radio button...
-2026-05-21 20:00:19,742 - INFO - Successfully clicked Insurance Option!
-2026-05-21 20:00:21,744 - INFO - Locating 'Pay Now' button...
-2026-05-21 20:00:24,538 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
-2026-05-21 20:00:32,539 - INFO - ======================= GATEWAY TRANSITION VERIFICATION =======================
-2026-05-21 20:00:32,540 - INFO - Successfully clicked PAY NOW. Holding browser open for visual verification...
-2026-05-21 20:00:47,542 - INFO - ======================= AUTOMATION RUN CONCLUDED SUCCESSFUL =======================
-2026-05-21 20:00:47,547 - INFO - TEST PASSED - CAPTURING SCREENSHOT
-2026-05-21 20:00:47,763 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set4]_PASS_20260521_200047.png
-2026-05-21 20:00:47,828 - INFO - ========== CLOSING TEST ==========
-2026-05-21 20:00:52,007 - INFO - BROWSER CLOSED SUCCESSFULLY
-2026-05-21 20:00:52,498 - INFO - ========== STARTING TEST ==========
-2026-05-21 20:00:56,580 - INFO - OPENING MAKEMYTRIP WEBSITE
-2026-05-21 20:01:08,585 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
-2026-05-21 20:01:08,594 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
-2026-05-21 20:01:14,655 - INFO - Checking for the presence of the authentication intercept overlay frame...
-2026-05-21 20:01:33,833 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
-2026-05-21 20:01:50,053 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
-2026-05-21 20:01:50,195 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set5]_FAIL_20260521_200150.png
-2026-05-21 20:01:50,282 - INFO - ========== CLOSING TEST ==========
-2026-05-21 20:01:54,674 - INFO - BROWSER CLOSED SUCCESSFULLY
-2026-05-21 20:48:42,309 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
-2026-05-21 20:48:42,312 - INFO - POM LOG: Successfully read 6 rows from get_test.csv
-2026-05-21 20:48:42,343 - INFO - ========== STARTING TEST ==========
-2026-05-21 20:48:47,701 - INFO - OPENING MAKEMYTRIP WEBSITE
-2026-05-21 20:48:57,615 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
-2026-05-21 20:48:57,631 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
-2026-05-21 20:49:05,166 - INFO - Checking for the presence of the authentication intercept overlay frame...
-2026-05-21 20:49:08,284 - INFO - Authentication layout modal dismissed successfully.
-2026-05-21 20:49:09,786 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
-2026-05-21 20:49:11,063 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_204910.png
-2026-05-21 20:49:11,065 - INFO - Opening query selection widget and inputting location details: Bali
-2026-05-21 20:49:18,745 - INFO - Successfully selected destination choice parameter option for: Bali
-2026-05-21 20:49:18,747 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
-2026-05-21 20:49:20,101 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
-2026-05-21 20:49:21,372 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_204921.png
-2026-05-21 20:49:21,379 - INFO - Validating guest matrix dimensions drawer and applying selection states...
-2026-05-21 20:49:22,458 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
-2026-05-21 20:49:29,454 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
-2026-05-21 20:49:29,728 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_204929.png
-2026-05-21 20:49:29,729 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
-2026-05-21 20:49:49,384 - INFO - ======================= STARTING PHASE 2 FILTER & BOOKING FLOW =======================
-2026-05-21 20:49:54,205 - INFO - Applying 5-Star hotel results modifier...
-2026-05-21 20:50:07,536 - INFO - Selecting primary top-listed hotel choice card...
-2026-05-21 20:50:21,513 - INFO - Synchronizing tab session instances...
-2026-05-21 20:50:25,533 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
-2026-05-21 20:50:29,069 - INFO - Clicking on 'BOOK THIS NOW' element...
-2026-05-21 20:50:29,168 - INFO - Successfully pushed past the hotel details view!
-2026-05-21 20:50:34,169 - INFO - ======================= STARTING PHASE 3 BOOKING PAGE DATA ENTRY =======================
-2026-05-21 20:50:34,172 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
-2026-05-21 20:50:42,529 - INFO - CSV READ: Filled PAN Details -> ABCDE1234F
-2026-05-21 20:50:42,534 - INFO - Initiating progressive scroll to load insurance and payment buttons...
-2026-05-21 20:50:47,609 - INFO - Locating 'Yes, secure my trip.' radio button...
-2026-05-21 20:50:48,971 - INFO - Successfully clicked Insurance Option!
-2026-05-21 20:50:50,973 - INFO - Locating 'Pay Now' button...
-2026-05-21 20:50:52,584 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
-2026-05-21 20:51:00,585 - INFO - ======================= GATEWAY TRANSITION VERIFICATION =======================
-2026-05-21 20:51:00,586 - INFO - Successfully clicked PAY NOW. Holding browser open for visual verification...
-2026-05-21 20:51:15,587 - INFO - ======================= AUTOMATION RUN CONCLUDED SUCCESSFUL =======================
-2026-05-21 20:51:15,607 - INFO - TEST PASSED - CAPTURING SCREENSHOT
-2026-05-21 20:51:15,740 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set0]_PASS_20260521_205115.png
-2026-05-21 20:51:15,788 - INFO - ========== CLOSING TEST ==========
-2026-05-21 20:51:20,363 - INFO - BROWSER CLOSED SUCCESSFULLY
-2026-05-21 20:51:20,788 - INFO - ========== STARTING TEST ==========
-2026-05-21 20:51:25,835 - INFO - OPENING MAKEMYTRIP WEBSITE
-2026-05-21 20:51:37,338 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
-2026-05-21 20:51:37,347 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
-2026-05-21 20:51:44,556 - INFO - Checking for the presence of the authentication intercept overlay frame...
-2026-05-21 20:51:47,646 - INFO - Authentication layout modal dismissed successfully.
-2026-05-21 20:51:49,147 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
-2026-05-21 20:51:50,046 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_205149.png
-2026-05-21 20:51:50,047 - INFO - Opening query selection widget and inputting location details: Bali
-2026-05-21 20:51:57,933 - INFO - Successfully selected destination choice parameter option for: Bali
-2026-05-21 20:51:57,934 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
-2026-05-21 20:51:59,136 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
-2026-05-21 20:52:00,383 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_205200.png
-2026-05-21 20:52:00,384 - INFO - Validating guest matrix dimensions drawer and applying selection states...
-2026-05-21 20:52:01,436 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
-2026-05-21 20:52:09,477 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
-2026-05-21 20:52:09,662 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_205209.png
-2026-05-21 20:52:09,666 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
-2026-05-21 20:52:28,532 - INFO - ======================= STARTING PHASE 2 FILTER & BOOKING FLOW =======================
-2026-05-21 20:52:32,743 - INFO - Applying 5-Star hotel results modifier...
-2026-05-21 20:52:46,085 - INFO - Selecting primary top-listed hotel choice card...
-2026-05-21 20:52:59,110 - INFO - Synchronizing tab session instances...
-2026-05-21 20:53:03,132 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
-2026-05-21 20:53:06,662 - INFO - Clicking on 'BOOK THIS NOW' element...
-2026-05-21 20:53:06,750 - INFO - Successfully pushed past the hotel details view!
-2026-05-21 20:53:11,752 - INFO - ======================= STARTING PHASE 3 BOOKING PAGE DATA ENTRY =======================
-2026-05-21 20:53:11,757 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
-2026-05-21 20:53:19,454 - INFO - CSV READ: Filled PAN Details -> XYZWX5678Z
-2026-05-21 20:53:19,456 - INFO - Initiating progressive scroll to load insurance and payment buttons...
-2026-05-21 20:53:24,519 - INFO - Locating 'Yes, secure my trip.' radio button...
-2026-05-21 20:53:35,080 - ERROR - Failed to click insurance or payment button: Message: 
+2026-05-22 11:47:46,514 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-22 11:47:46,543 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-22 11:47:46,593 - INFO - ========== STARTING TEST ==========
+2026-05-22 11:48:00,893 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-22 11:48:17,669 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-22 11:48:17,873 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+2026-05-22 11:49:29,850 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-22 11:49:32,957 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-22 11:49:34,870 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-22 11:49:34,879 - ERROR - SCREENSHOT FAILED: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
 Stacktrace:
-	uc_driver!GetHandleVerifier [0x7ff769e17de5+14895]
-	uc_driver!GetHandleVerifier [0x7ff769e17e50+14900]
-	uc_driver!(No symbol) [0x7ff769b7d5ad]
-	uc_driver!(No symbol) [0x7ff769bd7822]
-	uc_driver!(No symbol) [0x7ff769bd7b2c]
-	uc_driver!(No symbol) [0x7ff769c27d17]
-	uc_driver!(No symbol) [0x7ff769c2486f]
-	uc_driver!(No symbol) [0x7ff769bc9df8]
-	uc_driver!(No symbol) [0x7ff769bcace3]
-	uc_driver!GetHandleVerifier [0x7ff76a12cc49+3296f9]
-	uc_driver!GetHandleVerifier [0x7ff76a127375+323e25]
-	uc_driver!GetHandleVerifier [0x7ff76a14bc82+348732]
-	uc_driver!GetHandleVerifier [0x7ff769e36045+32af5]
-	uc_driver!GetHandleVerifier [0x7ff769e3ecec+3b79c]
-	uc_driver!GetHandleVerifier [0x7ff769e21bc4+1e674]
-	uc_driver!GetHandleVerifier [0x7ff769e21d54+1e804]
-	uc_driver!GetHandleVerifier [0x7ff769e060e7+2b97]
-	KERNEL32!BaseThreadInitThunk [0x7ffbb1697374+14]
-	ntdll!RtlUserThreadStart [0x7ffbb1d5cc91+21]
+	uc_driver!GetHandleVerifier [0x7ff727137de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff727137e50+14900]
+	uc_driver!(No symbol) [0x7ff726e9d396]
+	uc_driver!(No symbol) [0x7ff726ee8e76]
+	uc_driver!(No symbol) [0x7ff726f1ff62]
+	uc_driver!(No symbol) [0x7ff726f19d7f]
+	uc_driver!(No symbol) [0x7ff726f19543]
+	uc_driver!(No symbol) [0x7ff726e66325]
+	uc_driver!GetHandleVerifier [0x7ff72744cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff727447375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff72746bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff727156045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff72715ecec+3b79c]
+	uc_driver!(No symbol) [0x7ff726e650bc]
+	uc_driver!GetHandleVerifier [0x7ff7275b0b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7fff1b517374+14]
+	ntdll!RtlUserThreadStart [0x7fff1d1bcc91+21]
 
-2026-05-21 20:53:35,989 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
-2026-05-21 20:53:36,135 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set1]_FAIL_20260521_205335.png
-2026-05-21 20:53:36,147 - INFO - ========== CLOSING TEST ==========
-2026-05-21 20:53:39,383 - INFO - BROWSER CLOSED SUCCESSFULLY
-2026-05-21 20:53:39,454 - INFO - ========== STARTING TEST ==========
-2026-05-21 20:53:43,965 - INFO - OPENING MAKEMYTRIP WEBSITE
-2026-05-21 20:53:55,311 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
-2026-05-21 20:53:55,313 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
-2026-05-21 20:54:02,243 - INFO - Checking for the presence of the authentication intercept overlay frame...
-2026-05-21 20:54:05,390 - INFO - Authentication layout modal dismissed successfully.
-2026-05-21 20:54:06,895 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
-2026-05-21 20:54:07,746 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_205407.png
-2026-05-21 20:54:07,756 - INFO - Opening query selection widget and inputting location details: Bali
-2026-05-21 20:54:15,430 - INFO - Successfully selected destination choice parameter option for: Bali
-2026-05-21 20:54:15,431 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
-2026-05-21 20:54:16,791 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
-2026-05-21 20:54:18,064 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_205417.png
-2026-05-21 20:54:18,065 - INFO - Validating guest matrix dimensions drawer and applying selection states...
-2026-05-21 20:54:19,116 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
-2026-05-21 20:55:06,635 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
-2026-05-21 20:55:06,785 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_205506.png
-2026-05-21 20:55:06,787 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
-2026-05-21 20:55:27,268 - INFO - ======================= STARTING PHASE 2 FILTER & BOOKING FLOW =======================
-2026-05-21 20:55:31,438 - INFO - Applying 5-Star hotel results modifier...
-2026-05-21 20:55:44,729 - INFO - Selecting primary top-listed hotel choice card...
-2026-05-21 20:55:59,110 - INFO - Synchronizing tab session instances...
-2026-05-21 20:56:03,135 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
-2026-05-21 20:56:06,667 - INFO - Clicking on 'BOOK THIS NOW' element...
-2026-05-21 20:56:06,762 - INFO - Successfully pushed past the hotel details view!
-2026-05-21 20:56:11,763 - INFO - ======================= STARTING PHASE 3 BOOKING PAGE DATA ENTRY =======================
-2026-05-21 20:56:11,766 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
-2026-05-21 20:56:18,893 - INFO - CSV READ: Filled PAN Details -> LMNOP9876Q
-2026-05-21 20:56:18,895 - INFO - Initiating progressive scroll to load insurance and payment buttons...
-2026-05-21 20:56:23,936 - INFO - Locating 'Yes, secure my trip.' radio button...
-2026-05-21 20:56:25,063 - INFO - Successfully clicked Insurance Option!
-2026-05-21 20:56:27,064 - INFO - Locating 'Pay Now' button...
-2026-05-21 20:56:28,742 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
-2026-05-21 20:56:36,743 - INFO - ======================= GATEWAY TRANSITION VERIFICATION =======================
-2026-05-21 20:56:36,745 - INFO - Successfully clicked PAY NOW. Holding browser open for visual verification...
-2026-05-21 20:56:51,749 - INFO - ======================= AUTOMATION RUN CONCLUDED SUCCESSFUL =======================
-2026-05-21 20:56:51,754 - INFO - TEST PASSED - CAPTURING SCREENSHOT
-2026-05-21 20:56:51,898 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set2]_PASS_20260521_205651.png
-2026-05-21 20:56:51,937 - INFO - ========== CLOSING TEST ==========
-2026-05-21 20:56:55,182 - INFO - BROWSER CLOSED SUCCESSFULLY
-2026-05-21 20:56:55,242 - INFO - ========== STARTING TEST ==========
-2026-05-21 20:56:59,510 - INFO - OPENING MAKEMYTRIP WEBSITE
-2026-05-21 20:57:11,141 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
-2026-05-21 20:57:11,176 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
-2026-05-21 20:57:19,773 - INFO - Checking for the presence of the authentication intercept overlay frame...
-2026-05-21 20:57:22,843 - INFO - Authentication layout modal dismissed successfully.
-2026-05-21 20:57:24,344 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
-2026-05-21 20:57:24,977 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_205724.png
-2026-05-21 20:57:24,989 - INFO - Opening query selection widget and inputting location details: Bali
-2026-05-21 20:57:32,748 - INFO - Successfully selected destination choice parameter option for: Bali
-2026-05-21 20:57:32,750 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
-2026-05-21 20:57:33,920 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
-2026-05-21 20:57:35,205 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_205735.png
-2026-05-21 20:57:35,206 - INFO - Validating guest matrix dimensions drawer and applying selection states...
-2026-05-21 20:57:36,262 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
-2026-05-21 20:57:44,770 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
-2026-05-21 20:57:44,924 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_205744.png
-2026-05-21 20:57:44,925 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
-2026-05-21 20:58:03,731 - INFO - ======================= STARTING PHASE 2 FILTER & BOOKING FLOW =======================
-2026-05-21 20:58:07,940 - INFO - Applying 5-Star hotel results modifier...
-2026-05-21 20:58:21,263 - INFO - Selecting primary top-listed hotel choice card...
-2026-05-21 20:58:34,422 - INFO - Synchronizing tab session instances...
-2026-05-21 20:58:38,443 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
-2026-05-21 20:58:41,976 - INFO - Clicking on 'BOOK THIS NOW' element...
-2026-05-21 20:58:42,088 - INFO - Successfully pushed past the hotel details view!
-2026-05-21 20:58:47,090 - INFO - ======================= STARTING PHASE 3 BOOKING PAGE DATA ENTRY =======================
-2026-05-21 20:58:47,094 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
-2026-05-21 20:58:54,398 - INFO - CSV READ: Filled PAN Details -> QRSTU4321V
-2026-05-21 20:58:54,401 - INFO - Initiating progressive scroll to load insurance and payment buttons...
-2026-05-21 20:58:59,447 - INFO - Locating 'Yes, secure my trip.' radio button...
-2026-05-21 20:59:00,578 - INFO - Successfully clicked Insurance Option!
-2026-05-21 20:59:02,580 - INFO - Locating 'Pay Now' button...
-2026-05-21 20:59:04,190 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
-2026-05-21 20:59:12,190 - INFO - ======================= GATEWAY TRANSITION VERIFICATION =======================
-2026-05-21 20:59:12,194 - INFO - Successfully clicked PAY NOW. Holding browser open for visual verification...
-2026-05-21 20:59:27,195 - INFO - ======================= AUTOMATION RUN CONCLUDED SUCCESSFUL =======================
-2026-05-21 20:59:27,208 - INFO - TEST PASSED - CAPTURING SCREENSHOT
-2026-05-21 20:59:27,406 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set3]_PASS_20260521_205927.png
-2026-05-21 20:59:27,450 - INFO - ========== CLOSING TEST ==========
-2026-05-21 20:59:30,753 - INFO - BROWSER CLOSED SUCCESSFULLY
-2026-05-21 20:59:31,087 - INFO - ========== STARTING TEST ==========
-2026-05-21 20:59:35,360 - INFO - OPENING MAKEMYTRIP WEBSITE
-2026-05-21 20:59:47,232 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
-2026-05-21 20:59:47,237 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
-2026-05-21 20:59:54,787 - INFO - Checking for the presence of the authentication intercept overlay frame...
-2026-05-21 20:59:57,934 - INFO - Authentication layout modal dismissed successfully.
-2026-05-21 20:59:59,438 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
-2026-05-21 21:00:00,523 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_205959.png
-2026-05-21 21:00:00,525 - INFO - Opening query selection widget and inputting location details: Bali
-2026-05-21 21:00:08,928 - INFO - Successfully selected destination choice parameter option for: Bali
-2026-05-21 21:00:08,938 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
-2026-05-21 21:00:10,147 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
-2026-05-21 21:00:11,539 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_210011.png
-2026-05-21 21:00:11,541 - INFO - Validating guest matrix dimensions drawer and applying selection states...
-2026-05-21 21:00:12,625 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
-2026-05-21 21:00:16,193 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
-2026-05-21 21:00:16,298 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_210016.png
-2026-05-21 21:00:16,299 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
-2026-05-21 21:00:32,350 - INFO - ======================= STARTING PHASE 2 FILTER & BOOKING FLOW =======================
-2026-05-21 21:00:39,412 - INFO - Applying 5-Star hotel results modifier...
-2026-05-21 21:01:01,580 - INFO - Selecting primary top-listed hotel choice card...
-2026-05-21 21:01:13,533 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
-2026-05-21 21:01:14,889 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set4]_FAIL_20260521_210113.png
-2026-05-21 21:01:14,993 - INFO - ========== CLOSING TEST ==========
-2026-05-21 21:01:17,862 - INFO - BROWSER CLOSED SUCCESSFULLY
-2026-05-21 21:01:17,874 - INFO - ========== STARTING TEST ==========
-2026-05-21 21:01:22,716 - INFO - OPENING MAKEMYTRIP WEBSITE
-2026-05-21 21:01:31,425 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
-2026-05-21 21:01:31,430 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
-2026-05-21 21:01:36,609 - INFO - Checking for the presence of the authentication intercept overlay frame...
-2026-05-21 21:01:55,705 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
-2026-05-21 21:02:11,956 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
-2026-05-21 21:02:12,076 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set5]_FAIL_20260521_210211.png
-2026-05-21 21:02:12,086 - INFO - ========== CLOSING TEST ==========
-2026-05-21 21:02:15,529 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 11:49:34,897 - INFO - ========== CLOSING TEST ==========
+2026-05-22 11:49:38,906 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 11:50:14,983 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-22 11:50:14,989 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-22 11:50:15,044 - INFO - ========== STARTING TEST ==========
+2026-05-22 11:50:31,254 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-22 11:50:44,692 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-22 11:50:44,818 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+2026-05-22 11:50:52,887 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-22 11:50:56,503 - INFO - Authentication layout modal dismissed successfully.
+2026-05-22 11:50:58,005 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-22 11:50:58,938 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_115058.png
+2026-05-22 11:50:58,940 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-22 11:51:06,884 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-22 11:51:06,885 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-22 11:51:08,119 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-22 11:51:09,455 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_115109.png
+2026-05-22 11:51:09,457 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-22 11:51:10,521 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-22 11:51:19,546 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-22 11:51:19,801 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_115119.png
+2026-05-22 11:51:19,811 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-22 11:51:40,682 - INFO - ======================= STARTING PHASE 2 FILTER & BOOKING FLOW =======================
+2026-05-22 11:51:45,101 - INFO - Applying 5-Star hotel results modifier...
+2026-05-22 11:51:58,505 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-22 11:52:13,098 - INFO - Synchronizing tab session instances...
+2026-05-22 11:52:17,124 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-22 11:52:20,690 - INFO - Clicking on 'BOOK THIS NOW' element...
+2026-05-22 11:52:20,800 - INFO - Successfully pushed past the hotel details view!
+2026-05-22 11:52:25,802 - INFO - ======================= STARTING PHASE 3 BOOKING PAGE DATA ENTRY =======================
+2026-05-22 11:52:25,807 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
+2026-05-22 11:52:34,576 - INFO - CSV READ: Filled PAN Details -> HEVPM6200Q
+2026-05-22 11:52:34,578 - INFO - Initiating progressive scroll to load insurance and payment buttons...
+2026-05-22 11:52:39,625 - INFO - Locating 'Yes, secure my trip.' radio button...
+2026-05-22 11:52:40,777 - INFO - Successfully clicked Insurance Option!
+2026-05-22 11:52:42,778 - INFO - Locating 'Pay Now' button...
+2026-05-22 11:52:44,419 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
+2026-05-22 11:52:52,419 - INFO - ======================= GATEWAY TRANSITION VERIFICATION =======================
+2026-05-22 11:52:52,420 - INFO - Successfully clicked PAY NOW. Holding browser open for visual verification...
+2026-05-22 11:53:07,582 - INFO - ======================= AUTOMATION RUN CONCLUDED SUCCESSFUL =======================
+2026-05-22 11:53:07,607 - INFO - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-22 11:53:07,744 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set0]_PASS_20260522_115307.png
+2026-05-22 11:53:07,819 - INFO - ========== CLOSING TEST ==========
+2026-05-22 11:53:11,511 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 11:54:41,979 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\guest_test.csv
+2026-05-22 11:54:42,043 - INFO - POM LOG: Successfully read 5 rows from guest_test.csv
+2026-05-22 11:54:42,051 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\guest_test.csv
+2026-05-22 11:54:42,057 - INFO - POM LOG: Successfully read 5 rows from guest_test.csv
+2026-05-22 11:54:42,075 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-22 11:54:42,078 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-22 11:54:42,151 - INFO - ========== STARTING TEST ==========
+2026-05-22 11:54:51,191 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-22 11:55:09,418 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-22 11:55:09,468 - INFO - --- POSITIVE RUN: Processing Amit ---
+2026-05-22 11:55:18,534 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-22 11:55:21,691 - INFO - Authentication layout modal dismissed successfully.
+2026-05-22 11:55:23,194 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-22 11:55:24,028 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_115523.png
+2026-05-22 11:55:24,046 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-22 11:55:32,000 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-22 11:55:32,002 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-22 11:55:33,215 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-22 11:55:34,512 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_115534.png
+2026-05-22 11:55:34,513 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-22 11:55:35,577 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-22 11:55:44,754 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-22 11:55:44,951 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_115544.png
+2026-05-22 11:55:44,958 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-22 11:56:11,695 - INFO - Applying 5-Star hotel results modifier...
+2026-05-22 11:56:25,284 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-22 11:56:42,655 - INFO - Synchronizing tab session instances...
+2026-05-22 11:56:46,667 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-22 11:56:50,215 - INFO - Clicking on 'BOOK THIS NOW' element...
+2026-05-22 11:56:50,326 - INFO - Successfully pushed past the hotel details view!
+2026-05-22 11:56:55,344 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
+2026-05-22 11:57:03,005 - INFO - CSV READ: Filled PAN Details -> XYZWX5678Z
+2026-05-22 11:57:03,008 - INFO - Initiating progressive scroll to load insurance and payment buttons...
+2026-05-22 11:57:08,104 - INFO - Locating 'Yes, secure my trip.' radio button...
+2026-05-22 11:57:09,251 - INFO - Successfully clicked Insurance Option!
+2026-05-22 11:57:11,253 - INFO - Locating 'Pay Now' button...
+2026-05-22 11:57:12,892 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
+2026-05-22 11:57:29,066 - INFO - Assertion Passed! Saved verification screenshot via Allure.
+2026-05-22 11:57:29,131 - INFO - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-22 11:57:29,288 - INFO - SCREENSHOT SAVED : reports/screenshots/test_positive_booking_flow[data_set0]_PASS_20260522_115729.png
+2026-05-22 11:57:29,684 - INFO - ========== CLOSING TEST ==========
+2026-05-22 11:57:32,895 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 11:57:33,016 - INFO - ========== STARTING TEST ==========
+2026-05-22 11:58:54,826 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-22 11:59:07,423 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-22 11:59:07,517 - INFO - --- POSITIVE RUN: Processing Pooja ---
+2026-05-22 11:59:14,858 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-22 11:59:18,145 - INFO - Authentication layout modal dismissed successfully.
+2026-05-22 11:59:19,653 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-22 11:59:20,871 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_115920.png
+2026-05-22 11:59:20,890 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-22 11:59:29,176 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-22 11:59:29,194 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-22 11:59:30,627 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-22 11:59:32,335 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_115932.png
+2026-05-22 11:59:32,336 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-22 11:59:33,422 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-22 11:59:48,260 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-22 11:59:48,408 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_115948.png
+2026-05-22 11:59:48,410 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-22 12:00:13,225 - INFO - Applying 5-Star hotel results modifier...
+2026-05-22 12:00:26,575 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-22 12:00:44,730 - INFO - Synchronizing tab session instances...
+2026-05-22 12:00:48,743 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-22 12:00:52,307 - INFO - Clicking on 'BOOK THIS NOW' element...
+2026-05-22 12:00:52,411 - INFO - Successfully pushed past the hotel details view!
+2026-05-22 12:00:57,420 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
+2026-05-22 12:01:05,593 - INFO - CSV READ: Filled PAN Details -> LMNOP9876Q
+2026-05-22 12:01:05,595 - INFO - Initiating progressive scroll to load insurance and payment buttons...
+2026-05-22 12:01:10,651 - INFO - Locating 'Yes, secure my trip.' radio button...
+2026-05-22 12:01:11,819 - INFO - Successfully clicked Insurance Option!
+2026-05-22 12:01:13,823 - INFO - Locating 'Pay Now' button...
+2026-05-22 12:01:15,451 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
+2026-05-22 12:01:31,616 - INFO - Assertion Passed! Saved verification screenshot via Allure.
+2026-05-22 12:01:31,622 - INFO - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-22 12:01:31,782 - INFO - SCREENSHOT SAVED : reports/screenshots/test_positive_booking_flow[data_set1]_PASS_20260522_120131.png
+2026-05-22 12:01:31,823 - INFO - ========== CLOSING TEST ==========
+2026-05-22 12:01:34,007 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 12:01:34,314 - INFO - ========== STARTING TEST ==========
+2026-05-22 12:01:39,446 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-22 12:01:53,709 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-22 12:01:53,737 - INFO - --- POSITIVE RUN: Processing Vikram ---
+2026-05-22 12:02:01,569 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-22 12:02:04,655 - INFO - Authentication layout modal dismissed successfully.
+2026-05-22 12:02:06,156 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-22 12:02:07,360 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_120206.png
+2026-05-22 12:02:07,369 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-22 12:02:15,323 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-22 12:02:15,326 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-22 12:02:16,566 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-22 12:02:17,853 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_120217.png
+2026-05-22 12:02:17,855 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-22 12:02:19,026 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-22 12:02:28,789 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-22 12:02:28,964 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_120228.png
+2026-05-22 12:02:28,966 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-22 12:02:58,830 - INFO - Applying 5-Star hotel results modifier...
+2026-05-22 12:03:12,353 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-22 12:03:27,652 - INFO - Synchronizing tab session instances...
+2026-05-22 12:03:31,675 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-22 12:03:35,210 - INFO - Clicking on 'BOOK THIS NOW' element...
+2026-05-22 12:03:35,326 - INFO - Successfully pushed past the hotel details view!
+2026-05-22 12:03:40,344 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
+2026-05-22 12:03:48,560 - INFO - CSV READ: Filled PAN Details -> QRSTU4321V
+2026-05-22 12:03:48,567 - INFO - Initiating progressive scroll to load insurance and payment buttons...
+2026-05-22 12:03:53,624 - INFO - Locating 'Yes, secure my trip.' radio button...
+2026-05-22 12:03:54,816 - INFO - Successfully clicked Insurance Option!
+2026-05-22 12:03:56,822 - INFO - Locating 'Pay Now' button...
+2026-05-22 12:03:59,524 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
+2026-05-22 12:04:15,701 - INFO - Assertion Passed! Saved verification screenshot via Allure.
+2026-05-22 12:04:15,712 - INFO - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-22 12:04:15,880 - INFO - SCREENSHOT SAVED : reports/screenshots/test_positive_booking_flow[data_set2]_PASS_20260522_120415.png
+2026-05-22 12:04:15,906 - INFO - ========== CLOSING TEST ==========
+2026-05-22 12:04:18,764 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 12:04:18,930 - INFO - ========== STARTING TEST ==========
+2026-05-22 12:04:22,784 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-22 12:04:31,199 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-22 12:04:31,228 - INFO - --- RUNNING NEGATIVE TESTING DATASET: Negative_Missing_FirstName ---
+2026-05-22 12:04:38,084 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-22 12:04:57,832 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-22 12:05:14,692 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-22 12:05:14,797 - INFO - SCREENSHOT SAVED : reports/screenshots/test_negative_validation_flows[data_set0]_FAIL_20260522_120514.png
+2026-05-22 12:05:14,830 - INFO - ========== CLOSING TEST ==========
+2026-05-22 12:05:17,543 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 12:05:17,552 - INFO - ========== STARTING TEST ==========
+2026-05-22 12:05:22,116 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-22 12:05:34,376 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-22 12:05:34,379 - INFO - --- RUNNING NEGATIVE TESTING DATASET: Negative_Invalid_PAN_Format ---
+2026-05-22 12:05:40,700 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-22 12:05:48,775 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-22 12:05:49,270 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-22 12:05:49,276 - ERROR - SCREENSHOT FAILED: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff6dd057de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff6dd057e50+14900]
+	uc_driver!(No symbol) [0x7ff6dcdbd396]
+	uc_driver!(No symbol) [0x7ff6dce08e76]
+	uc_driver!(No symbol) [0x7ff6dce3ff62]
+	uc_driver!(No symbol) [0x7ff6dce39d7f]
+	uc_driver!(No symbol) [0x7ff6dce39543]
+	uc_driver!(No symbol) [0x7ff6dcd86325]
+	uc_driver!GetHandleVerifier [0x7ff6dd36cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff6dd367375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff6dd38bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff6dd076045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff6dd07ecec+3b79c]
+	uc_driver!(No symbol) [0x7ff6dcd850bc]
+	uc_driver!GetHandleVerifier [0x7ff6dd4d0b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7fff1b517374+14]
+	ntdll!RtlUserThreadStart [0x7fff1d1bcc91+21]
+
+2026-05-22 12:05:49,317 - INFO - ========== CLOSING TEST ==========
+2026-05-22 12:05:52,004 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 12:05:52,018 - INFO - ========== STARTING TEST ==========
+2026-05-22 12:06:01,444 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-22 12:06:10,361 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-22 12:06:10,370 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+2026-05-22 12:06:15,812 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-22 12:06:15,815 - ERROR - SCREENSHOT FAILED: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff6dd057de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff6dd057e50+14900]
+	uc_driver!(No symbol) [0x7ff6dcdbd396]
+	uc_driver!(No symbol) [0x7ff6dce08e76]
+	uc_driver!(No symbol) [0x7ff6dce3ff62]
+	uc_driver!(No symbol) [0x7ff6dce39d7f]
+	uc_driver!(No symbol) [0x7ff6dce39543]
+	uc_driver!(No symbol) [0x7ff6dcd86325]
+	uc_driver!GetHandleVerifier [0x7ff6dd36cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff6dd367375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff6dd38bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff6dd076045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff6dd07ecec+3b79c]
+	uc_driver!(No symbol) [0x7ff6dcd850bc]
+	uc_driver!GetHandleVerifier [0x7ff6dd4d0b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7fff1b517374+14]
+	ntdll!RtlUserThreadStart [0x7fff1d1bcc91+21]
+
+2026-05-22 12:06:15,825 - INFO - ========== CLOSING TEST ==========
+2026-05-22 12:06:18,578 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 12:34:48,817 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-22 12:34:48,833 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-22 12:37:10,730 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-22 12:37:10,747 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-22 12:37:10,759 - INFO - =======================================
+2026-05-22 12:37:10,766 - INFO - Starting Test Execution Suite
+2026-05-22 12:37:10,771 - INFO - Browser : edge
+2026-05-22 12:37:10,773 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-22 12:37:10,776 - INFO - Implicit Wait : 10
+2026-05-22 12:37:10,778 - INFO - Timeout : 20
+2026-05-22 12:37:10,782 - INFO - Headless : False
+2026-05-22 12:37:31,556 - INFO - Opening Target URL : https://www.makemytrip.com/
+2026-05-22 12:37:32,181 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+2026-05-22 12:37:38,535 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-22 12:37:41,965 - INFO - Authentication layout modal dismissed successfully.
+2026-05-22 12:37:43,466 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-22 12:37:52,232 - ERROR - Global Automation Engine Failed to execute screen snapshot logic: type object 'ScreenshotUtil' has no attribute 'capture_screenshot'
+2026-05-22 12:37:52,285 - INFO - Tearing Down Browser Session
+2026-05-22 12:38:25,756 - INFO - Test Run Concluded
+2026-05-22 12:38:25,761 - INFO - =======================================
+2026-05-22 12:38:56,510 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-22 12:38:56,519 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-22 12:38:56,532 - INFO - =======================================
+2026-05-22 12:38:56,535 - INFO - Starting Test Execution Suite
+2026-05-22 12:38:56,537 - INFO - Browser : chrome
+2026-05-22 12:38:56,539 - INFO - Base URL : https://www.makemytrip.com/
+2026-05-22 12:38:56,541 - INFO - Implicit Wait : 10
+2026-05-22 12:38:56,542 - INFO - Timeout : 20
+2026-05-22 12:38:56,543 - INFO - Headless : False
+2026-05-22 12:39:25,124 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-22 12:39:25,153 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-22 12:41:00,306 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-22 12:41:00,315 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-22 12:41:00,328 - INFO - ========== STARTING TEST ==========
+2026-05-22 12:41:07,167 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-22 12:41:15,686 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-22 12:41:15,699 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+2026-05-22 12:41:21,851 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-22 12:41:40,962 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-22 12:41:57,789 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-22 12:41:57,876 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set0]_FAIL_20260522_124157.png
+2026-05-22 12:41:57,923 - INFO - ========== CLOSING TEST ==========
+2026-05-22 12:42:01,874 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 12:43:47,370 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-22 12:43:47,376 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-22 12:43:47,422 - INFO - ========== STARTING TEST ==========
+2026-05-22 12:44:09,528 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-22 12:44:20,218 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-22 12:44:20,921 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+2026-05-22 12:44:27,220 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-22 12:44:35,854 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-22 12:44:40,370 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-22 12:44:40,376 - ERROR - SCREENSHOT FAILED: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=148.0.7778.169)
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff7a90e7de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff7a90e7e50+14900]
+	uc_driver!(No symbol) [0x7ff7a8e4d5ad]
+	uc_driver!(No symbol) [0x7ff7a8e240f2]
+	uc_driver!(No symbol) [0x7ff7a8ed6f56]
+	uc_driver!(No symbol) [0x7ff7a8ef4172]
+	uc_driver!(No symbol) [0x7ff7a8e99df8]
+	uc_driver!(No symbol) [0x7ff7a8e9ace3]
+	uc_driver!GetHandleVerifier [0x7ff7a93fcc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff7a93f7375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff7a941bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff7a9106045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff7a910ecec+3b79c]
+	uc_driver!GetHandleVerifier [0x7ff7a90f1bc4+1e674]
+	uc_driver!GetHandleVerifier [0x7ff7a90f1d54+1e804]
+	uc_driver!GetHandleVerifier [0x7ff7a90d60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7fff1b517374+14]
+	ntdll!RtlUserThreadStart [0x7fff1d1bcc91+21]
+
+2026-05-22 12:44:40,400 - INFO - ========== CLOSING TEST ==========
+2026-05-22 12:44:43,064 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 12:48:11,762 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-22 12:48:11,765 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-22 12:48:11,787 - INFO - ========== STARTING TEST ==========
+2026-05-22 12:48:18,824 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-22 12:48:40,483 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-22 12:48:40,894 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+2026-05-22 12:48:50,542 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-22 12:48:54,748 - INFO - Authentication layout modal dismissed successfully.
+2026-05-22 12:48:56,252 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-22 12:48:57,346 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_124856.png
+2026-05-22 12:48:57,348 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-22 12:49:07,416 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-22 12:49:07,421 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-22 12:49:08,665 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-22 12:49:09,984 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_124909.png
+2026-05-22 12:49:09,986 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-22 12:49:11,052 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-22 12:49:25,991 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-22 12:49:26,230 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_124925.png
+2026-05-22 12:49:26,233 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-22 12:49:48,925 - INFO - ======================= STARTING PHASE 2 FILTER & BOOKING FLOW =======================
+2026-05-22 12:49:53,758 - INFO - Applying 5-Star hotel results modifier...
+2026-05-22 12:50:07,264 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-22 12:50:21,207 - INFO - Synchronizing tab session instances...
+2026-05-22 12:50:25,272 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-22 12:50:28,858 - INFO - Clicking on 'BOOK THIS NOW' element...
+2026-05-22 12:50:29,000 - INFO - Successfully pushed past the hotel details view!
+2026-05-22 12:50:34,339 - INFO - ======================= STARTING PHASE 3 BOOKING PAGE DATA ENTRY =======================
+2026-05-22 12:50:34,538 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
+2026-05-22 12:50:46,519 - INFO - CSV READ: Filled PAN Details -> HEVPM6200Q
+2026-05-22 12:50:46,523 - INFO - Initiating progressive scroll to load insurance and payment buttons...
+2026-05-22 12:50:51,847 - INFO - Locating 'Yes, secure my trip.' radio button...
+2026-05-22 12:50:53,045 - INFO - Successfully clicked Insurance Option!
+2026-05-22 12:50:55,049 - INFO - Locating 'Pay Now' button...
+2026-05-22 12:50:56,704 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
+2026-05-22 12:51:04,707 - INFO - ======================= GATEWAY TRANSITION VERIFICATION =======================
+2026-05-22 12:51:04,710 - INFO - Successfully clicked PAY NOW. Holding browser open for visual verification...
+2026-05-22 12:51:19,834 - INFO - ======================= AUTOMATION RUN CONCLUDED SUCCESSFUL =======================
+2026-05-22 12:51:19,852 - INFO - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-22 12:51:19,944 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set0]_PASS_20260522_125119.png
+2026-05-22 12:51:20,025 - INFO - ========== CLOSING TEST ==========
+2026-05-22 12:51:22,850 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 12:57:24,723 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\data/get_test.csv
+2026-05-22 12:57:24,732 - ERROR - POM LOG: CSV file not found at: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\data/get_test.csv
+2026-05-22 12:58:23,070 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-22 12:58:23,126 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-22 12:58:23,291 - INFO - ========== STARTING TEST ==========
+2026-05-22 12:58:44,187 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-22 12:59:10,192 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-22 12:59:11,204 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+2026-05-22 12:59:18,825 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-22 12:59:24,540 - INFO - Authentication layout modal dismissed successfully.
+2026-05-22 12:59:26,045 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-22 12:59:27,584 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_125926.png
+2026-05-22 12:59:27,620 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-22 12:59:37,126 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-22 12:59:37,146 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-22 12:59:38,690 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-22 12:59:40,256 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_125940.png
+2026-05-22 12:59:40,260 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-22 12:59:41,370 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-22 12:59:56,184 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-22 12:59:56,444 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_125956.png
+2026-05-22 12:59:56,526 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-22 13:00:19,438 - INFO - ======================= STARTING PHASE 2 FILTER & BOOKING FLOW =======================
+2026-05-22 13:00:26,605 - INFO - Applying 5-Star hotel results modifier...
+2026-05-22 13:00:40,365 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-22 13:01:01,426 - INFO - Synchronizing tab session instances...
+2026-05-22 13:01:05,459 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-22 13:01:09,075 - INFO - Clicking on 'BOOK THIS NOW' element...
+2026-05-22 13:01:09,393 - INFO - Successfully pushed past the hotel details view!
+2026-05-22 13:01:14,398 - INFO - ======================= STARTING PHASE 3 BOOKING PAGE DATA ENTRY =======================
+2026-05-22 13:01:14,776 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
+2026-05-22 13:01:27,814 - INFO - CSV READ: Filled PAN Details -> HEVPM6200Q
+2026-05-22 13:01:27,822 - INFO - Initiating progressive scroll to load insurance and payment buttons...
+2026-05-22 13:01:32,933 - INFO - Locating 'Yes, secure my trip.' radio button...
+2026-05-22 13:01:43,574 - ERROR - Failed to click insurance or payment button: Message: 
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff6f6a77de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff6f6a77e50+14900]
+	uc_driver!(No symbol) [0x7ff6f67dd5ad]
+	uc_driver!(No symbol) [0x7ff6f6837822]
+	uc_driver!(No symbol) [0x7ff6f6837b2c]
+	uc_driver!(No symbol) [0x7ff6f6887d17]
+	uc_driver!(No symbol) [0x7ff6f688486f]
+	uc_driver!(No symbol) [0x7ff6f6829df8]
+	uc_driver!(No symbol) [0x7ff6f682ace3]
+	uc_driver!GetHandleVerifier [0x7ff6f6d8cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff6f6d87375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff6f6dabc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff6f6a96045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff6f6a9ecec+3b79c]
+	uc_driver!GetHandleVerifier [0x7ff6f6a81bc4+1e674]
+	uc_driver!GetHandleVerifier [0x7ff6f6a81d54+1e804]
+	uc_driver!GetHandleVerifier [0x7ff6f6a660e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7fff1b517374+14]
+	ntdll!RtlUserThreadStart [0x7fff1d1bcc91+21]
+
+2026-05-22 13:01:46,573 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-22 13:01:46,758 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set0]_FAIL_20260522_130146.png
+2026-05-22 13:01:46,911 - INFO - ========== CLOSING TEST ==========
+2026-05-22 13:01:49,847 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 13:05:50,314 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-22 13:05:50,320 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-22 13:05:50,364 - INFO - ========== STARTING TEST ==========
+2026-05-22 13:05:59,505 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-22 13:06:21,545 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-22 13:06:21,992 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+2026-05-22 13:06:29,215 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-22 13:06:36,677 - INFO - Authentication layout modal dismissed successfully.
+2026-05-22 13:06:38,188 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-22 13:06:40,140 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_130639.png
+2026-05-22 13:06:40,163 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-22 13:06:50,699 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-22 13:06:50,770 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-22 13:06:52,223 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-22 13:06:54,013 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_130653.png
+2026-05-22 13:06:54,015 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-22 13:06:55,102 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-22 13:07:16,091 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-22 13:07:16,616 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_130716.png
+2026-05-22 13:07:16,826 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-22 13:07:40,550 - INFO - ======================= STARTING PHASE 2 FILTER & BOOKING FLOW =======================
+2026-05-22 13:07:45,445 - INFO - Applying 5-Star hotel results modifier...
+2026-05-22 13:07:59,215 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-22 13:08:17,159 - INFO - Synchronizing tab session instances...
+2026-05-22 13:08:21,869 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-22 13:08:25,448 - INFO - Clicking on 'BOOK THIS NOW' element...
+2026-05-22 13:08:25,652 - INFO - Successfully pushed past the hotel details view!
+2026-05-22 13:08:30,655 - INFO - ======================= STARTING PHASE 3 BOOKING PAGE DATA ENTRY =======================
+2026-05-22 13:08:30,666 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
+2026-05-22 13:08:42,646 - INFO - CSV READ: Filled PAN Details -> HEVPM6200Q
+2026-05-22 13:08:42,651 - INFO - Initiating progressive scroll to load insurance and payment buttons...
+2026-05-22 13:08:47,785 - INFO - Locating 'Yes, secure my trip.' radio button...
+2026-05-22 13:08:49,109 - INFO - Successfully clicked Insurance Option!
+2026-05-22 13:08:51,115 - INFO - Locating 'Pay Now' button...
+2026-05-22 13:08:52,875 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
+2026-05-22 13:09:00,878 - INFO - ======================= GATEWAY TRANSITION VERIFICATION =======================
+2026-05-22 13:09:00,881 - INFO - Successfully clicked PAY NOW. Holding browser open for visual verification...
+2026-05-22 13:09:16,113 - INFO - ======================= AUTOMATION RUN CONCLUDED SUCCESSFUL =======================
+2026-05-22 13:09:16,155 - INFO - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-22 13:09:16,299 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set0]_PASS_20260522_130916.png
+2026-05-22 13:09:16,417 - INFO - ========== CLOSING TEST ==========
+2026-05-22 13:09:19,515 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 13:20:25,652 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-22 13:20:25,669 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-22 13:20:25,753 - INFO - ========== STARTING TEST ==========
+2026-05-22 13:20:33,354 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-22 13:20:58,791 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-22 13:20:59,310 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+2026-05-22 13:21:08,642 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-22 13:21:12,416 - INFO - Authentication layout modal dismissed successfully.
+2026-05-22 13:21:13,922 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-22 13:21:15,315 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_132114.png
+2026-05-22 13:21:15,321 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-22 13:21:23,793 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-22 13:21:23,822 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-22 13:21:25,172 - INFO - Native check-in click intercepted by overlay. Executing JavaScript fallback...
+2026-05-22 13:21:26,734 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-22 13:21:28,863 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_132128.png
+2026-05-22 13:21:28,876 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-22 13:21:30,485 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-22 13:21:43,100 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-22 13:21:56,321 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_132143.png
+2026-05-22 13:21:56,334 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-22 13:22:25,944 - INFO - ======================= STARTING PHASE 2 FILTER & BOOKING FLOW =======================
+2026-05-22 13:22:31,122 - INFO - Applying 5-Star hotel results modifier...
+2026-05-22 13:22:44,821 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-22 13:23:02,880 - INFO - Synchronizing tab session instances...
+2026-05-22 13:23:06,924 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-22 13:23:10,533 - INFO - Clicking on 'BOOK THIS NOW' element...
+2026-05-22 13:23:10,773 - INFO - Successfully pushed past the hotel details view!
+2026-05-22 13:23:15,776 - INFO - ======================= STARTING PHASE 3 BOOKING PAGE DATA ENTRY =======================
+2026-05-22 13:23:15,788 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
+2026-05-22 13:23:26,572 - INFO - CSV READ: Filled PAN Details -> HEVPM6200Q
+2026-05-22 13:23:26,576 - INFO - Initiating progressive scroll to load insurance and payment buttons...
+2026-05-22 13:23:31,687 - INFO - Locating 'Yes, secure my trip.' radio button...
+2026-05-22 13:23:32,954 - INFO - Successfully clicked Insurance Option!
+2026-05-22 13:23:34,956 - INFO - Locating 'Pay Now' button...
+2026-05-22 13:23:36,697 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
+2026-05-22 13:23:44,702 - INFO - ======================= GATEWAY TRANSITION VERIFICATION =======================
+2026-05-22 13:23:44,705 - INFO - Successfully clicked PAY NOW. Holding browser open for visual verification...
+2026-05-22 13:23:59,931 - INFO - ======================= AUTOMATION RUN CONCLUDED SUCCESSFUL =======================
+2026-05-22 13:23:59,961 - INFO - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-22 13:24:00,107 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set0]_PASS_20260522_132359.png
+2026-05-22 13:24:00,211 - INFO - ========== CLOSING TEST ==========
+2026-05-22 13:24:05,092 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 13:48:39,835 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\guest_test.csv
+2026-05-22 13:48:39,841 - INFO - POM LOG: Successfully read 5 rows from guest_test.csv
+2026-05-22 13:48:39,843 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\guest_test.csv
+2026-05-22 13:48:39,844 - INFO - POM LOG: Successfully read 5 rows from guest_test.csv
+2026-05-22 13:48:39,854 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-22 13:48:39,856 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-22 13:48:39,872 - INFO - ========== STARTING TEST ==========
+2026-05-22 13:48:49,367 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-22 13:49:02,485 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-22 13:49:02,494 - INFO - --- POSITIVE RUN: Processing Amit ---
+2026-05-22 13:49:12,073 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-22 13:49:15,856 - INFO - Authentication layout modal dismissed successfully.
+2026-05-22 13:49:17,358 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-22 13:49:19,721 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_134918.png
+2026-05-22 13:49:19,729 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-22 13:49:28,598 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-22 13:49:28,600 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-22 13:49:30,081 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-22 13:49:31,599 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_134931.png
+2026-05-22 13:49:31,602 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-22 13:49:32,677 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-22 13:49:43,362 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-22 13:49:43,606 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_134943.png
+2026-05-22 13:49:43,608 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-22 13:50:09,156 - INFO - Applying 5-Star hotel results modifier...
+2026-05-22 13:50:22,676 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-22 13:50:34,953 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-22 13:50:35,115 - INFO - SCREENSHOT SAVED : reports/screenshots/test_positive_booking_flow[data_set0]_FAIL_20260522_135034.png
+2026-05-22 13:50:35,157 - INFO - ========== CLOSING TEST ==========
+2026-05-22 13:50:38,022 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 13:50:38,085 - INFO - ========== STARTING TEST ==========
+2026-05-22 13:50:44,430 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-22 13:51:01,085 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-22 13:51:01,225 - INFO - --- POSITIVE RUN: Processing Pooja ---
+2026-05-22 13:51:10,106 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-22 13:51:14,168 - INFO - Authentication layout modal dismissed successfully.
+2026-05-22 13:51:15,671 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-22 13:51:16,918 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_135116.png
+2026-05-22 13:51:16,923 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-22 13:51:25,606 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-22 13:51:25,611 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-22 13:51:26,836 - INFO - Native check-in click intercepted by overlay. Executing JavaScript fallback...
+2026-05-22 13:51:27,989 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-22 13:51:29,414 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_135129.png
+2026-05-22 13:51:29,416 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-22 13:51:30,498 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-22 13:51:38,666 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-22 13:51:38,870 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_135138.png
+2026-05-22 13:51:38,872 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-22 13:52:04,890 - INFO - Applying 5-Star hotel results modifier...
+2026-05-22 13:52:18,426 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-22 13:52:32,766 - INFO - Synchronizing tab session instances...
+2026-05-22 13:52:36,806 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-22 13:52:40,372 - INFO - Clicking on 'BOOK THIS NOW' element...
+2026-05-22 13:52:40,569 - INFO - Successfully pushed past the hotel details view!
+2026-05-22 13:52:45,582 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
+2026-05-22 13:52:55,015 - INFO - CSV READ: Filled PAN Details -> LMNOP9876Q
+2026-05-22 13:52:55,018 - INFO - Initiating progressive scroll to load insurance and payment buttons...
+2026-05-22 13:53:00,099 - INFO - Locating 'Yes, secure my trip.' radio button...
+2026-05-22 13:53:01,368 - INFO - Successfully clicked Insurance Option!
+2026-05-22 13:53:03,373 - INFO - Locating 'Pay Now' button...
+2026-05-22 13:53:05,118 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
+2026-05-22 13:53:21,389 - INFO - Assertion Passed! Saved verification screenshot via Allure.
+2026-05-22 13:53:21,394 - INFO - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-22 13:53:21,605 - INFO - SCREENSHOT SAVED : reports/screenshots/test_positive_booking_flow[data_set1]_PASS_20260522_135321.png
+2026-05-22 13:53:21,632 - INFO - ========== CLOSING TEST ==========
+2026-05-22 13:53:24,679 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 13:53:24,743 - INFO - ========== STARTING TEST ==========
+2026-05-22 13:53:30,592 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-22 13:53:46,000 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-22 13:53:46,018 - INFO - --- POSITIVE RUN: Processing Vikram ---
+2026-05-22 13:53:54,580 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-22 13:53:57,913 - INFO - Authentication layout modal dismissed successfully.
+2026-05-22 13:53:59,422 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-22 13:54:01,135 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_135400.png
+2026-05-22 13:54:01,177 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-22 13:54:09,649 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-22 13:54:09,654 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-22 13:54:10,879 - INFO - Native check-in click intercepted by overlay. Executing JavaScript fallback...
+2026-05-22 13:54:11,955 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-22 13:54:13,114 - INFO - Native check-out click intercepted by overlay. Executing JavaScript fallback...
+2026-05-22 13:54:14,388 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_135414.png
+2026-05-22 13:54:14,390 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-22 13:54:15,467 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-22 13:54:24,909 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-22 13:54:25,151 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_135424.png
+2026-05-22 13:54:25,160 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-22 13:54:52,724 - INFO - Applying 5-Star hotel results modifier...
+2026-05-22 13:55:06,193 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-22 13:55:24,150 - INFO - Synchronizing tab session instances...
+2026-05-22 13:55:28,170 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-22 13:55:31,754 - INFO - Clicking on 'BOOK THIS NOW' element...
+2026-05-22 13:55:31,918 - INFO - Successfully pushed past the hotel details view!
+2026-05-22 13:55:36,935 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
+2026-05-22 13:55:45,788 - INFO - CSV READ: Filled PAN Details -> QRSTU4321V
+2026-05-22 13:55:45,801 - INFO - Initiating progressive scroll to load insurance and payment buttons...
+2026-05-22 13:55:50,895 - INFO - Locating 'Yes, secure my trip.' radio button...
+2026-05-22 13:56:01,544 - ERROR - Failed to click insurance or payment button: Message: 
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff6bdd17de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff6bdd17e50+14900]
+	uc_driver!(No symbol) [0x7ff6bda7d5ad]
+	uc_driver!(No symbol) [0x7ff6bdad7822]
+	uc_driver!(No symbol) [0x7ff6bdad7b2c]
+	uc_driver!(No symbol) [0x7ff6bdb27d17]
+	uc_driver!(No symbol) [0x7ff6bdb2486f]
+	uc_driver!(No symbol) [0x7ff6bdac9df8]
+	uc_driver!(No symbol) [0x7ff6bdacace3]
+	uc_driver!GetHandleVerifier [0x7ff6be02cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff6be027375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff6be04bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff6bdd36045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff6bdd3ecec+3b79c]
+	uc_driver!GetHandleVerifier [0x7ff6bdd21bc4+1e674]
+	uc_driver!GetHandleVerifier [0x7ff6bdd21d54+1e804]
+	uc_driver!GetHandleVerifier [0x7ff6bdd060e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7fff1b517374+14]
+	ntdll!RtlUserThreadStart [0x7fff1d1bcc91+21]
+
+2026-05-22 13:56:01,772 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-22 13:56:01,968 - INFO - SCREENSHOT SAVED : reports/screenshots/test_positive_booking_flow[data_set2]_FAIL_20260522_135601.png
+2026-05-22 13:56:02,050 - INFO - ========== CLOSING TEST ==========
+2026-05-22 13:56:04,795 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 13:56:04,856 - INFO - ========== STARTING TEST ==========
+2026-05-22 13:56:11,077 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-22 13:56:25,678 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-22 13:56:25,727 - INFO - --- RUNNING NEGATIVE TESTING DATASET: Negative_Missing_FirstName ---
+2026-05-22 13:56:34,325 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-22 13:56:37,853 - INFO - Authentication layout modal dismissed successfully.
+2026-05-22 13:56:39,362 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-22 13:56:41,191 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_135639.png
+2026-05-22 13:56:41,217 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-22 13:56:49,718 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-22 13:56:49,721 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-22 13:56:50,928 - INFO - Native check-in click intercepted by overlay. Executing JavaScript fallback...
+2026-05-22 13:56:52,003 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-22 13:56:53,440 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_135653.png
+2026-05-22 13:56:53,441 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-22 13:56:54,520 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-22 13:57:03,872 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-22 13:57:04,079 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_135703.png
+2026-05-22 13:57:04,081 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-22 13:57:28,521 - INFO - Applying 5-Star hotel results modifier...
+2026-05-22 13:57:42,106 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-22 13:57:59,029 - INFO - Synchronizing tab session instances...
+2026-05-22 13:58:03,064 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-22 13:58:06,659 - INFO - Clicking on 'BOOK THIS NOW' element...
+2026-05-22 13:58:06,845 - INFO - Successfully pushed past the hotel details view!
+2026-05-22 13:58:11,853 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
+2026-05-22 13:58:20,013 - INFO - CSV READ: Filled PAN Details -> ABCDE1234F
+2026-05-22 13:58:20,016 - INFO - Initiating progressive scroll to load insurance and payment buttons...
+2026-05-22 13:58:25,110 - INFO - Locating 'Yes, secure my trip.' radio button...
+2026-05-22 13:58:26,354 - INFO - Successfully clicked Insurance Option!
+2026-05-22 13:58:28,355 - INFO - Locating 'Pay Now' button...
+2026-05-22 13:58:30,120 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
+2026-05-22 13:58:41,396 - INFO - Negative check successful: Blocker text found on screen.
+2026-05-22 13:58:41,403 - INFO - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-22 13:58:41,612 - INFO - SCREENSHOT SAVED : reports/screenshots/test_negative_validation_flows[data_set0]_PASS_20260522_135841.png
+2026-05-22 13:58:41,742 - INFO - ========== CLOSING TEST ==========
+2026-05-22 13:58:45,020 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 13:58:45,210 - INFO - ========== STARTING TEST ==========
+2026-05-22 13:58:51,899 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-22 13:59:05,986 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-22 13:59:06,007 - INFO - --- RUNNING NEGATIVE TESTING DATASET: Negative_Invalid_PAN_Format ---
+2026-05-22 13:59:14,939 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-22 13:59:18,135 - INFO - Authentication layout modal dismissed successfully.
+2026-05-22 13:59:19,637 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-22 13:59:20,651 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_135920.png
+2026-05-22 13:59:20,690 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-22 13:59:29,160 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-22 13:59:29,163 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-22 13:59:30,359 - INFO - Native check-in click intercepted by overlay. Executing JavaScript fallback...
+2026-05-22 13:59:31,440 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-22 13:59:32,855 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_135932.png
+2026-05-22 13:59:32,857 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-22 13:59:33,940 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-22 13:59:41,999 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-22 13:59:42,273 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_135942.png
+2026-05-22 13:59:42,276 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-22 14:00:07,891 - INFO - Applying 5-Star hotel results modifier...
+2026-05-22 14:00:21,454 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-22 14:00:38,609 - INFO - Synchronizing tab session instances...
+2026-05-22 14:00:42,629 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-22 14:00:46,192 - INFO - Clicking on 'BOOK THIS NOW' element...
+2026-05-22 14:00:46,378 - INFO - Successfully pushed past the hotel details view!
+2026-05-22 14:00:51,393 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
+2026-05-22 14:00:59,945 - INFO - CSV READ: Filled PAN Details -> NOT_A_PAN
+2026-05-22 14:00:59,948 - INFO - Initiating progressive scroll to load insurance and payment buttons...
+2026-05-22 14:01:05,034 - INFO - Locating 'Yes, secure my trip.' radio button...
+2026-05-22 14:01:06,347 - INFO - Successfully clicked Insurance Option!
+2026-05-22 14:01:08,389 - INFO - Locating 'Pay Now' button...
+2026-05-22 14:01:11,141 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
+2026-05-22 14:01:22,404 - INFO - Negative check successful: User stayed safely locked on review page.
+2026-05-22 14:01:22,434 - INFO - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-22 14:01:22,661 - INFO - SCREENSHOT SAVED : reports/screenshots/test_negative_validation_flows[data_set1]_PASS_20260522_140122.png
+2026-05-22 14:01:22,735 - INFO - ========== CLOSING TEST ==========
+2026-05-22 14:01:25,583 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 14:01:25,767 - INFO - ========== STARTING TEST ==========
+2026-05-22 14:01:31,715 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-22 14:01:41,149 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-22 14:01:41,164 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+2026-05-22 14:01:46,892 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-22 14:01:46,898 - ERROR - SCREENSHOT FAILED: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff6bdd17de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff6bdd17e50+14900]
+	uc_driver!(No symbol) [0x7ff6bda7d396]
+	uc_driver!(No symbol) [0x7ff6bdac8e76]
+	uc_driver!(No symbol) [0x7ff6bdafff62]
+	uc_driver!(No symbol) [0x7ff6bdaf9d7f]
+	uc_driver!(No symbol) [0x7ff6bdaf9543]
+	uc_driver!(No symbol) [0x7ff6bda46325]
+	uc_driver!GetHandleVerifier [0x7ff6be02cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff6be027375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff6be04bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff6bdd36045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff6bdd3ecec+3b79c]
+	uc_driver!(No symbol) [0x7ff6bda450bc]
+	uc_driver!GetHandleVerifier [0x7ff6be190b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7fff1b517374+14]
+	ntdll!RtlUserThreadStart [0x7fff1d1bcc91+21]
+
+2026-05-22 14:01:46,921 - INFO - ========== CLOSING TEST ==========
+2026-05-22 14:01:50,089 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 14:11:56,717 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-22 14:11:56,723 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-22 14:11:56,796 - INFO - ========== STARTING TEST ==========
+2026-05-22 14:12:05,287 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-22 14:12:36,371 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-22 14:12:36,466 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+2026-05-22 14:12:42,586 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-22 14:12:49,799 - INFO - Authentication layout modal dismissed successfully.
+2026-05-22 14:12:51,327 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-22 14:12:54,411 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_141253.png
+2026-05-22 14:12:54,437 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-22 14:13:07,635 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-22 14:13:07,701 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-22 14:13:09,294 - INFO - Native check-in click intercepted by overlay. Executing JavaScript fallback...
+2026-05-22 14:13:10,513 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-22 14:13:12,057 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_141311.png
+2026-05-22 14:13:12,063 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-22 14:13:13,178 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-22 14:13:17,207 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-22 14:13:17,328 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_141317.png
+2026-05-22 14:13:17,332 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-22 14:13:34,152 - INFO - ======================= STARTING PHASE 2 FILTER & BOOKING FLOW =======================
+2026-05-22 14:13:36,506 - INFO - Applying 5-Star hotel results modifier...
+2026-05-22 14:13:38,525 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-22 14:13:49,904 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-22 14:13:49,913 - ERROR - SCREENSHOT FAILED: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff6a82f7de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff6a82f7e50+14900]
+	uc_driver!(No symbol) [0x7ff6a805d396]
+	uc_driver!(No symbol) [0x7ff6a80a8e76]
+	uc_driver!(No symbol) [0x7ff6a80dff62]
+	uc_driver!(No symbol) [0x7ff6a80d9d7f]
+	uc_driver!(No symbol) [0x7ff6a80d9543]
+	uc_driver!(No symbol) [0x7ff6a8026325]
+	uc_driver!GetHandleVerifier [0x7ff6a860cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff6a8607375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff6a862bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff6a8316045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff6a831ecec+3b79c]
+	uc_driver!(No symbol) [0x7ff6a80250bc]
+	uc_driver!GetHandleVerifier [0x7ff6a8770b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7fff1b517374+14]
+	ntdll!RtlUserThreadStart [0x7fff1d1bcc91+21]
+
+2026-05-22 14:13:49,997 - INFO - ========== CLOSING TEST ==========
+2026-05-22 14:13:53,740 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-22 14:17:03,743 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-22 14:17:03,747 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-22 14:17:03,793 - INFO - ========== STARTING TEST ==========
+2026-05-22 14:17:10,289 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-22 14:17:23,578 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-22 14:17:23,586 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+2026-05-22 14:17:30,216 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-22 14:17:37,489 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-22 14:17:39,716 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-22 14:17:39,722 - ERROR - SCREENSHOT FAILED: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff75ca57de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff75ca57e50+14900]
+	uc_driver!(No symbol) [0x7ff75c7bd396]
+	uc_driver!(No symbol) [0x7ff75c808e76]
+	uc_driver!(No symbol) [0x7ff75c83ff62]
+	uc_driver!(No symbol) [0x7ff75c839d7f]
+	uc_driver!(No symbol) [0x7ff75c839543]
+	uc_driver!(No symbol) [0x7ff75c786325]
+	uc_driver!GetHandleVerifier [0x7ff75cd6cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff75cd67375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff75cd8bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff75ca76045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff75ca7ecec+3b79c]
+	uc_driver!(No symbol) [0x7ff75c7850bc]
+	uc_driver!GetHandleVerifier [0x7ff75ced0b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7fff1b517374+14]
+	ntdll!RtlUserThreadStart [0x7fff1d1bcc91+21]
+
+2026-05-22 14:17:39,738 - INFO - ========== CLOSING TEST ==========
+2026-05-22 14:17:42,821 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 19:37:04,023 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\guest_test.csv
+2026-05-23 19:37:04,073 - INFO - POM LOG: Successfully read 5 rows from guest_test.csv
+2026-05-23 19:37:04,076 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\guest_test.csv
+2026-05-23 19:37:04,078 - INFO - POM LOG: Successfully read 5 rows from guest_test.csv
+2026-05-23 19:37:04,098 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-23 19:37:04,140 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-23 19:37:04,208 - INFO - ========== STARTING TEST ==========
+2026-05-23 19:37:16,103 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-23 19:37:38,284 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-23 19:37:38,589 - INFO - --- POSITIVE RUN: Processing Amit ---
+2026-05-23 19:37:48,778 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-23 19:37:55,847 - INFO - Authentication layout modal dismissed successfully.
+2026-05-23 19:37:57,372 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-23 19:38:00,302 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_193758.png
+2026-05-23 19:38:00,312 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-23 19:38:09,982 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-23 19:38:10,197 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-23 19:38:11,664 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-23 19:38:14,476 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_193814.png
+2026-05-23 19:38:14,481 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-23 19:38:15,649 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-23 19:38:26,699 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-23 19:38:27,294 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_193826.png
+2026-05-23 19:38:27,543 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-23 19:38:59,089 - INFO - Applying 5-Star hotel results modifier...
+2026-05-23 19:39:14,504 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-23 19:39:31,018 - INFO - Synchronizing tab session instances...
+2026-05-23 19:39:35,131 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-23 19:39:38,813 - INFO - Clicking on 'BOOK THIS NOW' element...
+2026-05-23 19:39:39,137 - INFO - Successfully pushed past the hotel details view!
+2026-05-23 19:39:44,275 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
+2026-05-23 19:39:56,632 - INFO - CSV READ: Filled PAN Details -> XYZWX5678Z
+2026-05-23 19:39:56,643 - INFO - Initiating progressive scroll to load insurance and payment buttons...
+2026-05-23 19:40:01,773 - INFO - Locating 'Yes, secure my trip.' radio button...
+2026-05-23 19:40:03,145 - INFO - Successfully clicked Insurance Option!
+2026-05-23 19:40:05,159 - INFO - Locating 'Pay Now' button...
+2026-05-23 19:40:07,027 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
+2026-05-23 19:40:23,337 - INFO - Assertion Passed! Saved verification screenshot via Allure.
+2026-05-23 19:40:23,392 - INFO - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-23 19:40:23,664 - INFO - SCREENSHOT SAVED : reports/screenshots/test_positive_booking_flow[data_set0]_PASS_20260523_194023.png
+2026-05-23 19:40:23,834 - INFO - ========== CLOSING TEST ==========
+2026-05-23 19:40:28,526 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 19:40:34,521 - INFO - ========== STARTING TEST ==========
+2026-05-23 19:40:47,062 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-23 19:41:08,510 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-23 19:41:08,717 - INFO - --- POSITIVE RUN: Processing Pooja ---
+2026-05-23 19:41:23,318 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-23 19:41:27,951 - INFO - Authentication layout modal dismissed successfully.
+2026-05-23 19:41:29,461 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-23 19:41:32,345 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_194130.png
+2026-05-23 19:41:32,363 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-23 19:41:42,186 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-23 19:41:42,204 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-23 19:41:43,592 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-23 19:41:45,133 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_194144.png
+2026-05-23 19:41:45,153 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-23 19:41:46,286 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-23 19:41:57,982 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-23 19:41:58,443 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_194157.png
+2026-05-23 19:41:58,476 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-23 19:42:32,545 - INFO - Applying 5-Star hotel results modifier...
+2026-05-23 19:42:47,158 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-23 19:43:06,113 - INFO - Synchronizing tab session instances...
+2026-05-23 19:43:10,184 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-23 19:43:13,768 - INFO - Clicking on 'BOOK THIS NOW' element...
+2026-05-23 19:43:14,026 - INFO - Successfully pushed past the hotel details view!
+2026-05-23 19:43:19,052 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
+2026-05-23 19:43:28,846 - INFO - CSV READ: Filled PAN Details -> LMNOP9876Q
+2026-05-23 19:43:28,855 - INFO - Initiating progressive scroll to load insurance and payment buttons...
+2026-05-23 19:43:33,958 - INFO - Locating 'Yes, secure my trip.' radio button...
+2026-05-23 19:43:35,259 - INFO - Successfully clicked Insurance Option!
+2026-05-23 19:43:37,289 - INFO - Locating 'Pay Now' button...
+2026-05-23 19:43:39,090 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
+2026-05-23 19:43:55,353 - INFO - Assertion Passed! Saved verification screenshot via Allure.
+2026-05-23 19:43:55,403 - INFO - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-23 19:43:55,656 - INFO - SCREENSHOT SAVED : reports/screenshots/test_positive_booking_flow[data_set1]_PASS_20260523_194355.png
+2026-05-23 19:43:55,760 - INFO - ========== CLOSING TEST ==========
+2026-05-23 19:43:59,590 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 19:44:05,944 - INFO - ========== STARTING TEST ==========
+2026-05-23 19:44:14,959 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-23 19:44:38,010 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-23 19:44:39,413 - INFO - --- POSITIVE RUN: Processing Vikram ---
+2026-05-23 19:44:51,550 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-23 19:44:55,702 - INFO - Authentication layout modal dismissed successfully.
+2026-05-23 19:44:57,211 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-23 19:44:59,267 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_194458.png
+2026-05-23 19:44:59,270 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-23 19:45:08,303 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-23 19:45:08,423 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-23 19:45:09,818 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-23 19:45:11,390 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_194511.png
+2026-05-23 19:45:11,400 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-23 19:45:12,498 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-23 19:45:23,155 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-23 19:45:26,073 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_194523.png
+2026-05-23 19:45:26,102 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-23 19:45:59,987 - INFO - Applying 5-Star hotel results modifier...
+2026-05-23 19:46:13,870 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-23 19:46:26,715 - INFO - Synchronizing tab session instances...
+2026-05-23 19:46:30,723 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-23 19:47:15,121 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Missing_Book_Now_Button_Layout_194714.png
+2026-05-23 19:47:16,770 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-23 19:47:16,876 - INFO - SCREENSHOT SAVED : reports/screenshots/test_positive_booking_flow[data_set2]_FAIL_20260523_194716.png
+2026-05-23 19:47:16,921 - INFO - ========== CLOSING TEST ==========
+2026-05-23 19:47:20,987 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 19:47:21,756 - INFO - ========== STARTING TEST ==========
+2026-05-23 19:48:48,269 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-23 19:48:58,344 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-23 19:48:58,615 - INFO - --- RUNNING NEGATIVE TESTING DATASET: Negative_Missing_FirstName ---
+2026-05-23 19:49:07,095 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-23 19:49:25,566 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-23 19:49:32,245 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-23 19:49:32,252 - ERROR - SCREENSHOT FAILED: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff73d907de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff73d907e50+14900]
+	uc_driver!(No symbol) [0x7ff73d66d396]
+	uc_driver!(No symbol) [0x7ff73d6b8e76]
+	uc_driver!(No symbol) [0x7ff73d6eff62]
+	uc_driver!(No symbol) [0x7ff73d6e9d7f]
+	uc_driver!(No symbol) [0x7ff73d6e9543]
+	uc_driver!(No symbol) [0x7ff73d636325]
+	uc_driver!GetHandleVerifier [0x7ff73dc1cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff73dc17375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff73dc3bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff73d926045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff73d92ecec+3b79c]
+	uc_driver!(No symbol) [0x7ff73d6350bc]
+	uc_driver!GetHandleVerifier [0x7ff73dd80b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7fff1b517374+14]
+	ntdll!RtlUserThreadStart [0x7fff1d1bcc91+21]
+
+2026-05-23 19:49:32,303 - INFO - ========== CLOSING TEST ==========
+2026-05-23 19:49:34,432 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 19:49:34,449 - INFO - ========== STARTING TEST ==========
+2026-05-23 19:49:44,132 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-23 19:49:51,650 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-23 19:49:51,656 - INFO - --- RUNNING NEGATIVE TESTING DATASET: Negative_Invalid_PAN_Format ---
+2026-05-23 19:49:57,690 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-23 19:49:57,694 - ERROR - SCREENSHOT FAILED: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff73d907de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff73d907e50+14900]
+	uc_driver!(No symbol) [0x7ff73d66d396]
+	uc_driver!(No symbol) [0x7ff73d6b8e76]
+	uc_driver!(No symbol) [0x7ff73d6eff62]
+	uc_driver!(No symbol) [0x7ff73d6e9d7f]
+	uc_driver!(No symbol) [0x7ff73d6e9543]
+	uc_driver!(No symbol) [0x7ff73d636325]
+	uc_driver!GetHandleVerifier [0x7ff73dc1cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff73dc17375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff73dc3bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff73d926045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff73d92ecec+3b79c]
+	uc_driver!(No symbol) [0x7ff73d6350bc]
+	uc_driver!GetHandleVerifier [0x7ff73dd80b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7fff1b517374+14]
+	ntdll!RtlUserThreadStart [0x7fff1d1bcc91+21]
+
+2026-05-23 19:49:57,713 - INFO - ========== CLOSING TEST ==========
+2026-05-23 19:50:00,775 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 19:50:00,800 - INFO - ========== STARTING TEST ==========
+2026-05-23 19:50:08,409 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-23 19:50:18,204 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-23 19:50:18,226 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+2026-05-23 19:50:23,673 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-23 19:50:42,871 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-23 19:50:59,296 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-23 19:50:59,462 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set0]_FAIL_20260523_195059.png
+2026-05-23 19:50:59,542 - INFO - ========== CLOSING TEST ==========
+2026-05-23 19:51:05,068 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 20:12:42,070 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-23 20:12:42,091 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-23 20:12:42,227 - INFO - ========== STARTING TEST ==========
+2026-05-23 20:13:01,616 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-23 20:13:18,329 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-23 20:13:20,403 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+2026-05-23 20:13:30,702 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-23 20:13:34,928 - INFO - Authentication layout modal dismissed successfully.
+2026-05-23 20:13:36,433 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-23 20:13:38,374 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_201337.png
+2026-05-23 20:13:38,634 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-23 20:13:48,673 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-23 20:13:48,727 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-23 20:13:50,674 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-23 20:13:52,371 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_201352.png
+2026-05-23 20:13:52,382 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-23 20:13:53,529 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-23 20:14:03,407 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-23 20:14:03,612 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_201403.png
+2026-05-23 20:14:03,618 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-23 20:14:25,824 - INFO - ======================= STARTING PHASE 2 FILTER & BOOKING FLOW =======================
+2026-05-23 20:14:34,046 - INFO - Applying 5-Star hotel results modifier...
+2026-05-23 20:14:47,859 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-23 20:15:05,724 - INFO - Synchronizing tab session instances...
+2026-05-23 20:15:09,760 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-23 20:15:13,323 - INFO - Clicking on 'BOOK THIS NOW' element...
+2026-05-23 20:15:13,491 - INFO - Successfully pushed past the hotel details view!
+2026-05-23 20:15:18,525 - INFO - ======================= STARTING PHASE 3 BOOKING PAGE DATA ENTRY =======================
+2026-05-23 20:15:18,648 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
+2026-05-23 20:15:28,499 - INFO - CSV READ: Filled PAN Details -> HEVPM6200Q
+2026-05-23 20:15:28,556 - INFO - Initiating progressive scroll to load insurance and payment buttons...
+2026-05-23 20:15:33,908 - INFO - Locating 'Yes, secure my trip.' radio button...
+2026-05-23 20:15:35,071 - INFO - Successfully clicked Insurance Option!
+2026-05-23 20:15:37,073 - INFO - Locating 'Pay Now' button...
+2026-05-23 20:15:38,795 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
+2026-05-23 20:15:46,796 - INFO - ======================= GATEWAY TRANSITION VERIFICATION =======================
+2026-05-23 20:15:46,798 - INFO - Successfully clicked PAY NOW. Holding browser open for visual verification...
+2026-05-23 20:16:01,928 - INFO - ======================= AUTOMATION RUN CONCLUDED SUCCESSFUL =======================
+2026-05-23 20:16:01,993 - INFO - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-23 20:16:02,101 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set0]_PASS_20260523_201601.png
+2026-05-23 20:16:02,304 - INFO - ========== CLOSING TEST ==========
+2026-05-23 20:16:05,540 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 20:25:12,175 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-23 20:25:12,179 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-23 20:25:12,222 - INFO - ========== STARTING TEST ==========
+2026-05-23 20:25:18,209 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-23 20:25:35,709 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-23 20:25:35,905 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+2026-05-23 20:25:44,236 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-23 20:25:47,749 - INFO - Authentication layout modal dismissed successfully.
+2026-05-23 20:25:49,257 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-23 20:25:50,838 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_202549.png
+2026-05-23 20:25:51,041 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-23 20:25:59,753 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-23 20:25:59,775 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-23 20:26:01,029 - INFO - Native check-in click intercepted by overlay. Executing JavaScript fallback...
+2026-05-23 20:26:02,099 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-23 20:26:03,631 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_202603.png
+2026-05-23 20:26:03,636 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-23 20:26:04,728 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-23 20:26:19,959 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-23 20:26:20,259 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_202619.png
+2026-05-23 20:26:20,265 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-23 20:26:53,537 - INFO - ======================= STARTING PHASE 2 FILTER & BOOKING FLOW =======================
+2026-05-23 20:27:01,425 - INFO - Applying 5-Star hotel results modifier...
+2026-05-23 20:27:14,822 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-23 20:27:29,306 - INFO - Synchronizing tab session instances...
+2026-05-23 20:27:33,327 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-23 20:27:36,869 - INFO - Clicking on 'BOOK THIS NOW' element...
+2026-05-23 20:27:36,974 - INFO - Successfully pushed past the hotel details view!
+2026-05-23 20:27:41,978 - INFO - ======================= STARTING PHASE 3 BOOKING PAGE DATA ENTRY =======================
+2026-05-23 20:27:41,984 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
+2026-05-23 20:27:50,898 - INFO - CSV READ: Filled PAN Details -> HEVPM6200Q
+2026-05-23 20:27:50,900 - INFO - Initiating progressive scroll to load insurance and payment buttons...
+2026-05-23 20:27:55,951 - INFO - Locating 'Yes, secure my trip.' radio button...
+2026-05-23 20:27:57,080 - INFO - Successfully clicked Insurance Option!
+2026-05-23 20:27:59,082 - INFO - Locating 'Pay Now' button...
+2026-05-23 20:28:00,749 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
+2026-05-23 20:28:08,751 - INFO - ======================= GATEWAY TRANSITION VERIFICATION =======================
+2026-05-23 20:28:08,752 - INFO - Successfully clicked PAY NOW. Holding browser open for visual verification...
+2026-05-23 20:28:23,892 - INFO - ======================= AUTOMATION RUN CONCLUDED SUCCESSFUL =======================
+2026-05-23 20:28:23,938 - INFO - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-23 20:28:24,067 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set0]_PASS_20260523_202823.png
+2026-05-23 20:28:24,268 - INFO - ========== CLOSING TEST ==========
+2026-05-23 20:28:28,854 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 20:43:42,392 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-23 20:43:42,402 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-23 20:43:42,471 - INFO - ========== STARTING TEST ==========
+2026-05-23 20:43:49,915 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-23 20:44:08,683 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-23 20:44:08,766 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+2026-05-23 20:44:16,598 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-23 20:44:23,727 - INFO - Authentication layout modal dismissed successfully.
+2026-05-23 20:44:25,230 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-23 20:44:27,129 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_204426.png
+2026-05-23 20:44:27,144 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-23 20:44:37,290 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-23 20:44:37,677 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-23 20:44:40,657 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-23 20:44:42,257 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_204442.png
+2026-05-23 20:44:42,268 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-23 20:44:43,466 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-23 20:44:55,340 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-23 20:44:55,930 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_204455.png
+2026-05-23 20:44:55,953 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-23 20:45:22,860 - INFO - ======================= STARTING PHASE 2 FILTER & BOOKING FLOW =======================
+2026-05-23 20:45:30,823 - INFO - Applying 5-Star hotel results modifier...
+2026-05-23 20:45:44,378 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-23 20:45:59,242 - INFO - Synchronizing tab session instances...
+2026-05-23 20:46:03,302 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-23 20:46:06,912 - INFO - Clicking on 'BOOK THIS NOW' element...
+2026-05-23 20:46:07,097 - INFO - Successfully pushed past the hotel details view!
+2026-05-23 20:46:12,100 - INFO - ======================= STARTING PHASE 3 BOOKING PAGE DATA ENTRY =======================
+2026-05-23 20:46:12,106 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
+2026-05-23 20:46:21,284 - INFO - CSV READ: Filled PAN Details -> HEVPM6200Q
+2026-05-23 20:46:21,298 - INFO - Initiating progressive scroll to load insurance and payment buttons...
+2026-05-23 20:46:26,451 - INFO - Locating 'Yes, secure my trip.' radio button...
+2026-05-23 20:46:27,793 - INFO - Successfully clicked Insurance Option!
+2026-05-23 20:46:29,795 - INFO - Locating 'Pay Now' button...
+2026-05-23 20:46:31,528 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
+2026-05-23 20:46:39,536 - INFO - ======================= GATEWAY TRANSITION VERIFICATION =======================
+2026-05-23 20:46:39,631 - INFO - Successfully clicked PAY NOW. Holding browser open for visual verification...
+2026-05-23 20:46:55,157 - INFO - ======================= AUTOMATION RUN CONCLUDED SUCCESSFUL =======================
+2026-05-23 20:46:55,756 - INFO - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-23 20:46:55,946 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set0]_PASS_20260523_204655.png
+2026-05-23 20:46:56,834 - INFO - ========== CLOSING TEST ==========
+2026-05-23 20:47:04,764 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 20:52:13,816 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-23 20:52:13,827 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-23 20:52:13,912 - INFO - ========== STARTING TEST ==========
+2026-05-23 20:52:19,952 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-23 20:52:51,548 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-23 20:52:51,742 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+2026-05-23 20:53:01,392 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-23 20:53:04,568 - INFO - Authentication layout modal dismissed successfully.
+2026-05-23 20:53:06,070 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-23 20:53:06,977 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_205306.png
+2026-05-23 20:53:07,009 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-23 20:53:15,937 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-23 20:53:15,939 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-23 20:53:17,230 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-23 20:53:18,580 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_205318.png
+2026-05-23 20:53:18,582 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-23 20:53:19,658 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-23 20:53:30,864 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-23 20:53:31,141 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_205330.png
+2026-05-23 20:53:31,153 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-23 20:53:54,416 - INFO - ======================= STARTING PHASE 2 FILTER & BOOKING FLOW =======================
+2026-05-23 20:54:01,483 - INFO - Applying 5-Star hotel results modifier...
+2026-05-23 20:54:15,030 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-23 20:54:29,506 - INFO - Synchronizing tab session instances...
+2026-05-23 20:54:33,534 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-23 20:54:37,077 - INFO - Clicking on 'BOOK THIS NOW' element...
+2026-05-23 20:54:37,183 - INFO - Successfully pushed past the hotel details view!
+2026-05-23 20:54:42,185 - INFO - ======================= STARTING PHASE 3 BOOKING PAGE DATA ENTRY =======================
+2026-05-23 20:54:42,192 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
+2026-05-23 20:54:50,552 - INFO - CSV READ: Filled PAN Details -> HEVPM6200Q
+2026-05-23 20:54:50,556 - INFO - Initiating progressive scroll to load insurance and payment buttons...
+2026-05-23 20:54:55,601 - INFO - Locating 'Yes, secure my trip.' radio button...
+2026-05-23 20:54:56,753 - INFO - Successfully clicked Insurance Option!
+2026-05-23 20:54:58,755 - INFO - Locating 'Pay Now' button...
+2026-05-23 20:55:00,394 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
+2026-05-23 20:55:08,395 - INFO - ======================= GATEWAY TRANSITION VERIFICATION =======================
+2026-05-23 20:55:08,396 - INFO - Successfully clicked PAY NOW. Holding browser open for visual verification...
+2026-05-23 20:55:23,516 - INFO - ======================= AUTOMATION RUN CONCLUDED SUCCESSFUL =======================
+2026-05-23 20:55:23,536 - INFO - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-23 20:55:23,647 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set0]_PASS_20260523_205523.png
+2026-05-23 20:55:23,724 - INFO - ========== CLOSING TEST ==========
+2026-05-23 20:55:27,473 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 21:09:38,472 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\guest_test.csv
+2026-05-23 21:09:38,477 - INFO - POM LOG: Successfully read 5 rows from guest_test.csv
+2026-05-23 21:09:38,478 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\guest_test.csv
+2026-05-23 21:09:38,481 - INFO - POM LOG: Successfully read 5 rows from guest_test.csv
+2026-05-23 21:09:38,527 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-23 21:09:38,534 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-23 21:09:38,609 - INFO - ========== STARTING TEST ==========
+2026-05-23 21:09:45,144 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-23 21:10:02,203 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-23 21:10:05,883 - INFO - --- POSITIVE RUN: Processing Amit ---
+2026-05-23 21:10:28,601 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-23 21:10:34,895 - INFO - Authentication layout modal dismissed successfully.
+2026-05-23 21:10:36,421 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-23 21:10:38,649 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_211037.png
+2026-05-23 21:10:38,846 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-23 21:10:49,516 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-23 21:10:49,584 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-23 21:10:52,293 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-23 21:10:53,859 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_211053.png
+2026-05-23 21:10:53,875 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-23 21:10:55,071 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-23 21:11:41,176 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-23 21:11:41,509 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_211141.png
+2026-05-23 21:11:41,557 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-23 21:12:15,544 - INFO - Applying 5-Star hotel results modifier...
+2026-05-23 21:12:30,600 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-23 21:12:57,499 - INFO - Synchronizing tab session instances...
+2026-05-23 21:13:01,632 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-23 21:13:46,866 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Missing_Book_Now_Button_Layout_211346.png
+2026-05-23 21:13:57,310 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-23 21:13:57,798 - INFO - SCREENSHOT SAVED : reports/screenshots/test_positive_booking_flow[data_set0]_FAIL_20260523_211357.png
+2026-05-23 21:13:58,089 - INFO - ========== CLOSING TEST ==========
+2026-05-23 21:14:04,617 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 21:14:04,785 - INFO - ========== STARTING TEST ==========
+2026-05-23 21:15:39,527 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-23 21:15:49,063 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-23 21:15:49,183 - INFO - --- POSITIVE RUN: Processing Pooja ---
+2026-05-23 21:16:03,367 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-23 21:16:03,378 - ERROR - SCREENSHOT FAILED: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff7e70e7de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff7e70e7e50+14900]
+	uc_driver!(No symbol) [0x7ff7e6e4d396]
+	uc_driver!(No symbol) [0x7ff7e6e98e76]
+	uc_driver!(No symbol) [0x7ff7e6ecff62]
+	uc_driver!(No symbol) [0x7ff7e6ec9d7f]
+	uc_driver!(No symbol) [0x7ff7e6ec9543]
+	uc_driver!(No symbol) [0x7ff7e6e16325]
+	uc_driver!GetHandleVerifier [0x7ff7e73fcc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff7e73f7375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff7e741bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff7e7106045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff7e710ecec+3b79c]
+	uc_driver!(No symbol) [0x7ff7e6e150bc]
+	uc_driver!GetHandleVerifier [0x7ff7e7560b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7fff1b517374+14]
+	ntdll!RtlUserThreadStart [0x7fff1d1bcc91+21]
+
+2026-05-23 21:16:03,413 - INFO - ========== CLOSING TEST ==========
+2026-05-23 21:16:05,930 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 21:16:07,221 - INFO - ========== STARTING TEST ==========
+2026-05-23 21:16:19,655 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-23 21:16:51,525 - INFO - ========== STARTING TEST ==========
+2026-05-23 21:17:23,044 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-23 21:17:31,058 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-23 21:17:31,340 - INFO - --- RUNNING NEGATIVE TESTING DATASET: Negative_Missing_FirstName ---
+2026-05-23 21:17:38,636 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-23 21:17:38,647 - ERROR - SCREENSHOT FAILED: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff7e70e7de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff7e70e7e50+14900]
+	uc_driver!(No symbol) [0x7ff7e6e4d396]
+	uc_driver!(No symbol) [0x7ff7e6e98e76]
+	uc_driver!(No symbol) [0x7ff7e6ecff62]
+	uc_driver!(No symbol) [0x7ff7e6ec9d7f]
+	uc_driver!(No symbol) [0x7ff7e6ec9543]
+	uc_driver!(No symbol) [0x7ff7e6e16325]
+	uc_driver!GetHandleVerifier [0x7ff7e73fcc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff7e73f7375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff7e741bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff7e7106045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff7e710ecec+3b79c]
+	uc_driver!(No symbol) [0x7ff7e6e150bc]
+	uc_driver!GetHandleVerifier [0x7ff7e7560b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7fff1b517374+14]
+	ntdll!RtlUserThreadStart [0x7fff1d1bcc91+21]
+
+2026-05-23 21:17:38,725 - INFO - ========== CLOSING TEST ==========
+2026-05-23 21:17:42,215 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 21:17:42,256 - INFO - ========== STARTING TEST ==========
+2026-05-23 21:18:06,065 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-23 21:18:17,518 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-23 21:18:17,746 - INFO - --- RUNNING NEGATIVE TESTING DATASET: Negative_Invalid_PAN_Format ---
+2026-05-23 21:18:24,197 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-23 21:18:24,208 - ERROR - SCREENSHOT FAILED: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff7e70e7de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff7e70e7e50+14900]
+	uc_driver!(No symbol) [0x7ff7e6e4d396]
+	uc_driver!(No symbol) [0x7ff7e6e98e76]
+	uc_driver!(No symbol) [0x7ff7e6ecff62]
+	uc_driver!(No symbol) [0x7ff7e6ec9d7f]
+	uc_driver!(No symbol) [0x7ff7e6ec9543]
+	uc_driver!(No symbol) [0x7ff7e6e16325]
+	uc_driver!GetHandleVerifier [0x7ff7e73fcc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff7e73f7375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff7e741bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff7e7106045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff7e710ecec+3b79c]
+	uc_driver!(No symbol) [0x7ff7e6e150bc]
+	uc_driver!GetHandleVerifier [0x7ff7e7560b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7fff1b517374+14]
+	ntdll!RtlUserThreadStart [0x7fff1d1bcc91+21]
+
+2026-05-23 21:18:24,297 - INFO - ========== CLOSING TEST ==========
+2026-05-23 21:18:27,784 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 21:18:27,819 - INFO - ========== STARTING TEST ==========
+2026-05-23 21:18:38,170 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-23 21:18:49,548 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-23 21:18:49,562 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+2026-05-23 21:18:57,559 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-23 21:19:01,267 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-23 21:19:02,014 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-23 21:19:02,023 - ERROR - SCREENSHOT FAILED: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff7e70e7de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff7e70e7e50+14900]
+	uc_driver!(No symbol) [0x7ff7e6e4d396]
+	uc_driver!(No symbol) [0x7ff7e6e98e76]
+	uc_driver!(No symbol) [0x7ff7e6ecff62]
+	uc_driver!(No symbol) [0x7ff7e6ec9d7f]
+	uc_driver!(No symbol) [0x7ff7e6ec9543]
+	uc_driver!(No symbol) [0x7ff7e6e16325]
+	uc_driver!GetHandleVerifier [0x7ff7e73fcc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff7e73f7375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff7e741bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff7e7106045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff7e710ecec+3b79c]
+	uc_driver!(No symbol) [0x7ff7e6e150bc]
+	uc_driver!GetHandleVerifier [0x7ff7e7560b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7fff1b517374+14]
+	ntdll!RtlUserThreadStart [0x7fff1d1bcc91+21]
+
+2026-05-23 21:19:02,059 - INFO - ========== CLOSING TEST ==========
+2026-05-23 21:19:05,149 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 11:33:29,146 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-24 11:33:29,156 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-24 11:33:29,191 - INFO - ========== STARTING TEST ==========
+2026-05-24 11:33:35,295 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-24 11:33:50,467 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-24 11:33:50,521 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+2026-05-24 11:33:58,550 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-24 11:34:02,783 - INFO - Authentication layout modal dismissed successfully.
+2026-05-24 11:34:04,286 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-24 11:34:05,850 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_113404.png
+2026-05-24 11:34:05,873 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-24 11:34:15,211 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-24 11:34:15,216 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-24 11:34:17,658 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-24 11:34:19,143 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_113419.png
+2026-05-24 11:34:19,148 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-24 11:34:20,240 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-24 11:34:33,668 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-24 11:34:33,915 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_113433.png
+2026-05-24 11:34:33,916 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-24 11:34:53,448 - INFO - ======================= STARTING PHASE 2 FILTER & BOOKING FLOW =======================
+2026-05-24 11:35:03,072 - INFO - Applying 5-Star hotel results modifier...
+2026-05-24 11:35:16,733 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-24 11:35:29,629 - INFO - Synchronizing tab session instances...
+2026-05-24 11:35:33,648 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-24 11:36:23,179 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Missing_Book_Now_Button_Layout_113621.png
+2026-05-24 11:36:36,699 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-24 11:36:36,879 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set0]_FAIL_20260524_113636.png
+2026-05-24 11:36:37,225 - INFO - ========== CLOSING TEST ==========
+2026-05-24 11:36:40,607 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 12:45:10,599 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-24 12:45:10,632 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-24 12:45:10,679 - INFO - ========== STARTING TEST ==========
+2026-05-24 12:45:29,862 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-24 12:49:42,143 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-24 12:49:42,146 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-24 12:49:42,181 - INFO - ========== STARTING TEST ==========
+2026-05-24 12:49:54,816 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-24 12:50:08,039 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-24 12:50:08,211 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+2026-05-24 12:50:16,637 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-24 12:50:20,297 - INFO - Authentication layout modal dismissed successfully.
+2026-05-24 12:50:21,811 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-24 12:50:23,090 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_125022.png
+2026-05-24 12:50:23,094 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-24 12:50:30,772 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-24 12:50:30,774 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-24 12:50:32,163 - INFO - Native check-in click intercepted by overlay. Executing JavaScript fallback...
+2026-05-24 12:50:33,207 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-24 12:50:34,273 - INFO - Native check-out click intercepted by overlay. Executing JavaScript fallback...
+2026-05-24 12:50:35,501 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_125035.png
+2026-05-24 12:50:35,518 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-24 12:50:36,676 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-24 12:50:45,470 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-24 12:50:45,667 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_125045.png
+2026-05-24 12:50:45,668 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-24 12:51:04,583 - INFO - ======================= STARTING PHASE 2 FILTER & BOOKING FLOW =======================
+2026-05-24 12:51:11,818 - INFO - Applying 5-Star hotel results modifier...
+2026-05-24 12:51:25,102 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-24 12:51:38,757 - INFO - Synchronizing tab session instances...
+2026-05-24 12:51:42,800 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-24 12:51:46,377 - INFO - Clicking on 'BOOK THIS NOW' element...
+2026-05-24 12:51:46,470 - INFO - Successfully pushed past the hotel details view!
+2026-05-24 12:51:51,473 - INFO - ======================= STARTING PHASE 3 BOOKING PAGE DATA ENTRY =======================
+2026-05-24 12:51:51,503 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
+2026-05-24 12:52:12,493 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-24 12:52:12,644 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set0]_FAIL_20260524_125212.png
+2026-05-24 12:52:12,683 - INFO - ========== CLOSING TEST ==========
+2026-05-24 12:52:16,769 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 12:54:12,876 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-24 12:54:12,891 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-24 12:54:12,915 - INFO - ========== STARTING TEST ==========
+2026-05-24 12:54:22,156 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-24 12:54:32,481 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-24 12:54:32,484 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+2026-05-24 12:54:40,117 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-24 12:54:43,415 - INFO - Authentication layout modal dismissed successfully.
+2026-05-24 12:54:44,916 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-24 12:54:47,369 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-24 12:54:47,625 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set0]_FAIL_20260524_125447.png
+2026-05-24 12:54:47,643 - INFO - ========== CLOSING TEST ==========
+2026-05-24 12:54:51,273 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 14:34:40,697 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\get_test.csv
+2026-05-24 14:34:40,700 - INFO - POM LOG: Successfully read 1 rows from get_test.csv
+2026-05-24 14:34:40,735 - INFO - ========== STARTING TEST ==========
+2026-05-24 14:34:47,771 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-24 14:35:01,561 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-24 14:35:02,262 - INFO - ======================= STARTING PHASE 1 HOMEPAGE FLOW =======================
+2026-05-24 14:35:10,172 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-24 14:35:13,453 - INFO - Authentication layout modal dismissed successfully.
+2026-05-24 14:35:14,956 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-24 14:35:18,383 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_143517.png
+2026-05-24 14:35:18,417 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-24 14:35:28,338 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-24 14:35:28,400 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-24 14:35:29,653 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-24 14:35:30,998 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_143530.png
+2026-05-24 14:35:31,004 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-24 14:35:32,128 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-24 14:35:42,549 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-24 14:35:42,747 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_143542.png
+2026-05-24 14:35:42,758 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-24 14:36:04,681 - INFO - ======================= STARTING PHASE 2 FILTER & BOOKING FLOW =======================
+2026-05-24 14:36:11,758 - INFO - Applying 5-Star hotel results modifier...
+2026-05-24 14:36:25,580 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-24 14:36:41,504 - INFO - Synchronizing tab session instances...
+2026-05-24 14:36:45,518 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-24 14:36:49,091 - INFO - Clicking on 'BOOK THIS NOW' element...
+2026-05-24 14:36:49,195 - INFO - Successfully pushed past the hotel details view!
+2026-05-24 14:36:54,224 - INFO - ======================= STARTING PHASE 3 BOOKING PAGE DATA ENTRY =======================
+2026-05-24 14:36:54,420 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
+2026-05-24 14:37:04,053 - INFO - CSV READ: Filled PAN Details -> HEVPM6200Q
+2026-05-24 14:37:04,059 - INFO - Initiating progressive scroll to load insurance and payment buttons...
+2026-05-24 14:37:09,842 - INFO - Locating 'Yes, secure my trip.' radio button...
+2026-05-24 14:37:11,855 - INFO - Successfully clicked Insurance Option!
+2026-05-24 14:37:13,860 - INFO - Locating 'Pay Now' button...
+2026-05-24 14:37:15,927 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
+2026-05-24 14:37:23,932 - INFO - ======================= GATEWAY TRANSITION VERIFICATION =======================
+2026-05-24 14:37:23,934 - INFO - Successfully clicked PAY NOW. Holding browser open for visual verification...
+2026-05-24 14:37:39,312 - INFO - ======================= AUTOMATION RUN CONCLUDED SUCCESSFUL =======================
+2026-05-24 14:37:39,437 - INFO - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-24 14:37:39,590 - INFO - SCREENSHOT SAVED : reports/screenshots/test_navigate_to_hotels_module[data_set0]_PASS_20260524_143739.png
+2026-05-24 14:37:40,125 - INFO - ========== CLOSING TEST ==========
+2026-05-24 14:37:43,947 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 14:41:25,174 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\guest_test.csv
+2026-05-24 14:41:25,203 - INFO - POM LOG: Successfully read 5 rows from guest_test.csv
+2026-05-24 14:41:25,203 - INFO - POM LOG: Attempting to read CSV from path: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\data\guest_test.csv
+2026-05-24 14:41:25,205 - INFO - POM LOG: Successfully read 5 rows from guest_test.csv
+2026-05-24 14:41:25,225 - INFO - ========== STARTING TEST ==========
+2026-05-24 14:41:41,806 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-24 14:41:56,143 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-24 14:41:56,296 - INFO - --- POSITIVE RUN: Processing Amit ---
+2026-05-24 14:42:08,313 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-24 14:42:11,528 - INFO - Authentication layout modal dismissed successfully.
+2026-05-24 14:42:13,040 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-24 14:42:14,568 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_144213.png
+2026-05-24 14:42:14,571 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-24 14:42:24,094 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-24 14:42:24,097 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-24 14:42:25,403 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-24 14:42:26,726 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_144226.png
+2026-05-24 14:42:26,728 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-24 14:42:27,778 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-24 14:42:40,162 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-24 14:42:40,337 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_144240.png
+2026-05-24 14:42:40,340 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-24 14:43:08,812 - INFO - Applying 5-Star hotel results modifier...
+2026-05-24 14:43:22,223 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-24 14:43:38,268 - INFO - Synchronizing tab session instances...
+2026-05-24 14:43:42,284 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-24 14:43:45,833 - INFO - Clicking on 'BOOK THIS NOW' element...
+2026-05-24 14:43:45,966 - INFO - Successfully pushed past the hotel details view!
+2026-05-24 14:43:51,056 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
+2026-05-24 14:43:58,861 - INFO - CSV READ: Filled PAN Details -> XYZWX5678Z
+2026-05-24 14:43:58,863 - INFO - Initiating progressive scroll to load insurance and payment buttons...
+2026-05-24 14:44:03,926 - INFO - Locating 'Yes, secure my trip.' radio button...
+2026-05-24 14:44:05,118 - INFO - Successfully clicked Insurance Option!
+2026-05-24 14:44:07,121 - INFO - Locating 'Pay Now' button...
+2026-05-24 14:44:08,772 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
+2026-05-24 14:44:24,975 - INFO - Assertion Passed! Saved verification screenshot via Allure.
+2026-05-24 14:44:25,011 - INFO - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-24 14:44:25,195 - INFO - SCREENSHOT SAVED : reports/screenshots/test_positive_booking_flow[data_set0]_PASS_20260524_144425.png
+2026-05-24 14:44:25,328 - INFO - ========== CLOSING TEST ==========
+2026-05-24 14:44:31,397 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 14:44:32,414 - INFO - ========== STARTING TEST ==========
+2026-05-24 14:46:01,099 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-24 14:46:13,821 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-24 14:46:13,913 - INFO - --- POSITIVE RUN: Processing Pooja ---
+2026-05-24 14:46:26,475 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-24 14:46:29,963 - INFO - Authentication layout modal dismissed successfully.
+2026-05-24 14:46:31,536 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-24 14:46:33,602 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_144632.png
+2026-05-24 14:46:33,613 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-24 14:46:41,996 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-24 14:46:41,999 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-24 14:46:43,173 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-24 14:46:44,580 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_144644.png
+2026-05-24 14:46:44,582 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-24 14:46:45,812 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-24 14:46:56,351 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-24 14:46:56,541 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_144656.png
+2026-05-24 14:46:56,544 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-24 14:47:26,705 - INFO - Applying 5-Star hotel results modifier...
+2026-05-24 14:47:40,061 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-24 14:47:55,019 - INFO - Synchronizing tab session instances...
+2026-05-24 14:47:59,047 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-24 14:48:02,593 - INFO - Clicking on 'BOOK THIS NOW' element...
+2026-05-24 14:48:02,733 - INFO - Successfully pushed past the hotel details view!
+2026-05-24 14:48:07,742 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
+2026-05-24 14:48:16,203 - INFO - CSV READ: Filled PAN Details -> LMNOP9876Q
+2026-05-24 14:48:16,205 - INFO - Initiating progressive scroll to load insurance and payment buttons...
+2026-05-24 14:48:21,356 - INFO - Locating 'Yes, secure my trip.' radio button...
+2026-05-24 14:48:22,615 - INFO - Successfully clicked Insurance Option!
+2026-05-24 14:48:24,617 - INFO - Locating 'Pay Now' button...
+2026-05-24 14:48:26,405 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
+2026-05-24 14:48:42,709 - INFO - Assertion Passed! Saved verification screenshot via Allure.
+2026-05-24 14:48:42,902 - INFO - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-24 14:48:43,188 - INFO - SCREENSHOT SAVED : reports/screenshots/test_positive_booking_flow[data_set1]_PASS_20260524_144842.png
+2026-05-24 14:48:43,385 - INFO - ========== CLOSING TEST ==========
+2026-05-24 14:48:45,948 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 14:48:46,458 - INFO - ========== STARTING TEST ==========
+2026-05-24 14:48:54,820 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-24 14:49:06,510 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-24 14:49:06,525 - INFO - --- POSITIVE RUN: Processing Vikram ---
+2026-05-24 14:49:14,763 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-24 14:49:19,003 - INFO - Authentication layout modal dismissed successfully.
+2026-05-24 14:49:20,506 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-24 14:49:21,517 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_144920.png
+2026-05-24 14:49:21,530 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-24 14:49:30,573 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-24 14:49:30,576 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-24 14:49:31,839 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-24 14:49:33,268 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_144933.png
+2026-05-24 14:49:33,269 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-24 14:49:34,322 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-24 14:49:43,888 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-24 14:49:44,055 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_144943.png
+2026-05-24 14:49:44,058 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-24 14:50:11,460 - INFO - Applying 5-Star hotel results modifier...
+2026-05-24 14:50:24,865 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-24 14:50:38,776 - INFO - Synchronizing tab session instances...
+2026-05-24 14:50:42,820 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-24 14:50:46,396 - INFO - Clicking on 'BOOK THIS NOW' element...
+2026-05-24 14:50:46,544 - INFO - Successfully pushed past the hotel details view!
+2026-05-24 14:50:51,576 - INFO - Synchronizing tabs and switching to the final Review/Booking tab...
+2026-05-24 14:51:04,327 - INFO - CSV READ: Filled PAN Details -> QRSTU4321V
+2026-05-24 14:51:04,331 - INFO - Initiating progressive scroll to load insurance and payment buttons...
+2026-05-24 14:51:09,478 - INFO - Locating 'Yes, secure my trip.' radio button...
+2026-05-24 14:51:10,792 - INFO - Successfully clicked Insurance Option!
+2026-05-24 14:51:12,794 - INFO - Locating 'Pay Now' button...
+2026-05-24 14:51:14,525 - INFO - Successfully clicked PAY NOW! Awaiting gateway transition...
+2026-05-24 14:51:30,788 - INFO - Assertion Passed! Saved verification screenshot via Allure.
+2026-05-24 14:51:30,848 - INFO - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-24 14:51:31,053 - INFO - SCREENSHOT SAVED : reports/screenshots/test_positive_booking_flow[data_set2]_PASS_20260524_145130.png
+2026-05-24 14:51:31,161 - INFO - ========== CLOSING TEST ==========
+2026-05-24 14:51:35,585 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 14:51:35,785 - INFO - ========== STARTING TEST ==========
+2026-05-24 14:51:42,153 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-24 14:51:53,667 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-24 14:51:53,683 - INFO - --- RUNNING NEGATIVE TESTING DATASET: Negative_Missing_FirstName ---
+2026-05-24 14:52:02,030 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-24 14:52:05,329 - INFO - Authentication layout modal dismissed successfully.
+2026-05-24 14:52:06,831 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-24 14:52:08,156 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_145207.png
+2026-05-24 14:52:08,158 - INFO - Opening query selection widget and inputting location details: Bali
+2026-05-24 14:52:18,007 - INFO - Successfully selected destination choice parameter option for: Bali
+2026-05-24 14:52:18,039 - INFO - Pinning check-in calendar grid coordinates target date: May 27, 2026
+2026-05-24 14:52:19,294 - INFO - Pinning check-out calendar grid coordinates target date: May 30, 2026
+2026-05-24 14:52:20,771 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_145220.png
+2026-05-24 14:52:20,773 - INFO - Validating guest matrix dimensions drawer and applying selection states...
+2026-05-24 14:52:21,831 - INFO - Submitting query information criteria parameters to initialize compilation workflow execution...
+2026-05-24 14:52:30,991 - INFO - Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+2026-05-24 14:52:31,245 - INFO - Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_145230.png
+2026-05-24 14:52:31,255 - INFO - Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+2026-05-24 14:52:58,041 - INFO - Applying 5-Star hotel results modifier...
+2026-05-24 14:53:11,635 - INFO - Selecting primary top-listed hotel choice card...
+2026-05-24 14:53:22,906 - INFO - Synchronizing tab session instances...
+2026-05-24 14:53:26,912 - INFO - Adjusting viewport positioning to clear the floating AI overlay view block...
+2026-05-24 14:53:39,423 - ERROR - Failed to extract and capture page layout snapshot sequence: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff65e327de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff65e327e50+14900]
+	uc_driver!(No symbol) [0x7ff65e08d396]
+	uc_driver!(No symbol) [0x7ff65e0d8e76]
+	uc_driver!(No symbol) [0x7ff65e10ff62]
+	uc_driver!(No symbol) [0x7ff65e109d7f]
+	uc_driver!(No symbol) [0x7ff65e109543]
+	uc_driver!(No symbol) [0x7ff65e056325]
+	uc_driver!GetHandleVerifier [0x7ff65e63cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff65e637375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff65e65bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff65e346045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff65e34ecec+3b79c]
+	uc_driver!(No symbol) [0x7ff65e0550bc]
+	uc_driver!GetHandleVerifier [0x7ff65e7a0b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7ff8b85d7374+14]
+	ntdll!RtlUserThreadStart [0x7ff8b8b1cc91+21]
+
+2026-05-24 14:53:40,795 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-24 14:53:40,797 - ERROR - SCREENSHOT FAILED: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff65e327de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff65e327e50+14900]
+	uc_driver!(No symbol) [0x7ff65e08d396]
+	uc_driver!(No symbol) [0x7ff65e0d8e76]
+	uc_driver!(No symbol) [0x7ff65e10ff62]
+	uc_driver!(No symbol) [0x7ff65e109d7f]
+	uc_driver!(No symbol) [0x7ff65e109543]
+	uc_driver!(No symbol) [0x7ff65e056325]
+	uc_driver!GetHandleVerifier [0x7ff65e63cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff65e637375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff65e65bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff65e346045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff65e34ecec+3b79c]
+	uc_driver!(No symbol) [0x7ff65e0550bc]
+	uc_driver!GetHandleVerifier [0x7ff65e7a0b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7ff8b85d7374+14]
+	ntdll!RtlUserThreadStart [0x7ff8b8b1cc91+21]
+
+2026-05-24 14:53:40,832 - INFO - ========== CLOSING TEST ==========
+2026-05-24 14:53:43,622 - INFO - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 14:53:43,643 - INFO - ========== STARTING TEST ==========
+2026-05-24 14:53:50,357 - INFO - OPENING MAKEMYTRIP WEBSITE
+2026-05-24 14:53:58,450 - INFO - CURRENT URL: https://www.makemytrip.com/hotels/
+2026-05-24 14:53:58,479 - INFO - --- RUNNING NEGATIVE TESTING DATASET: Negative_Invalid_PAN_Format ---
+2026-05-24 14:54:07,397 - INFO - Checking for the presence of the authentication intercept overlay frame...
+2026-05-24 14:54:26,940 - INFO - Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+2026-05-24 14:54:43,790 - ERROR - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-24 14:54:43,902 - INFO - SCREENSHOT SAVED : reports/screenshots/test_negative_validation_flows[data_set1]_FAIL_20260524_145443.png
+2026-05-24 14:54:43,992 - INFO - ========== CLOSING TEST ==========
+2026-05-24 14:54:47,576 - INFO - BROWSER CLOSED SUCCESSFULLY

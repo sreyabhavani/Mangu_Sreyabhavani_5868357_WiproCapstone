@@ -1,0 +1,8 @@
+[32mINFO    [0m Conftest:conftest.py:158 ========== STARTING TEST ==========
+[32mINFO    [0m Conftest:conftest.py:168 OPENING MAKEMYTRIP WEBSITE
+[32mINFO    [0m Conftest:conftest.py:174 CURRENT URL: https://www.makemytrip.com/hotels/
+[32mINFO    [0m TestBookingValidationSuite:test_booking_validations.py:76 --- RUNNING NEGATIVE TESTING DATASET: Negative_Invalid_PAN_Format ---
+[32mINFO    [0m HomePage:home_page.py:43 Checking for the presence of the authentication intercept overlay frame...
+[32mINFO    [0m HomePage:home_page.py:55 Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+[32mINFO    [0m Conftest:conftest.py:178 ========== CLOSING TEST ==========
+[32mINFO    [0m Conftest:conftest.py:181 BROWSER CLOSED SUCCESSFULLY

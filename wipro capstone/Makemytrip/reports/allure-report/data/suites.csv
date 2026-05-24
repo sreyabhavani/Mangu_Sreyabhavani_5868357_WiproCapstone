@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","144300","Positive Booking Flow: Positive_Booking_04","tests","2026-05-24","passed","2026-05-24","TestBookingValidationSuite","Hotel Booking Validation Suite","",""
+"","148911","Positive Booking Flow: Positive_Booking_03","tests","2026-05-24","passed","2026-05-24","TestBookingValidationSuite","Hotel Booking Validation Suite","",""
+"","106180","Negative Validation Flow: Negative_Missing_FirstName","tests","2026-05-24","broken","2026-05-24","TestBookingValidationSuite","Hotel Booking Validation Suite","",""
+"","45119","Negative Validation Flow: Negative_Invalid_PAN_Format","tests","2026-05-24","broken","2026-05-24","TestBookingValidationSuite","Hotel Booking Validation Suite","",""
+"","148703","Positive Booking Flow: Positive_Booking_02","tests","2026-05-24","passed","2026-05-24","TestBookingValidationSuite","Hotel Booking Validation Suite","",""
+"","157172","Hotel Booking End-to-End Flow: Positive_Booking_01","tests","2026-05-24","passed","2026-05-24","TestMakeMyTrip","MakeMyTrip Hotel Booking Core Suite","",""

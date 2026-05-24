@@ -1,0 +1,43 @@
+[32mINFO    [0m Conftest:conftest.py:158 ========== STARTING TEST ==========
+[32mINFO    [0m Conftest:conftest.py:168 OPENING MAKEMYTRIP WEBSITE
+[32mINFO    [0m Conftest:conftest.py:174 CURRENT URL: https://www.makemytrip.com/hotels/
+[32mINFO    [0m TestBookingValidationSuite:test_booking_validations.py:76 --- RUNNING NEGATIVE TESTING DATASET: Negative_Missing_FirstName ---
+[32mINFO    [0m HomePage:home_page.py:43 Checking for the presence of the authentication intercept overlay frame...
+[32mINFO    [0m HomePage:home_page.py:49 Authentication layout modal dismissed successfully.
+[32mINFO    [0m HomePage:home_page.py:55 Navigating explicitly into the MakeMyTrip Hotels workspace panel module...
+[32mINFO    [0m HomePage:base_page.py:25 Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Hotels_Module_Loaded_145207.png
+[32mINFO    [0m HomePage:home_page.py:64 Opening query selection widget and inputting location details: Bali
+[32mINFO    [0m HomePage:home_page.py:89 Successfully selected destination choice parameter option for: Bali
+[32mINFO    [0m HomePage:home_page.py:91 Pinning check-in calendar grid coordinates target date: May 27, 2026
+[32mINFO    [0m HomePage:home_page.py:100 Pinning check-out calendar grid coordinates target date: May 30, 2026
+[32mINFO    [0m HomePage:base_page.py:25 Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Calendar_Dates_Selected_145220.png
+[32mINFO    [0m HomePage:home_page.py:111 Validating guest matrix dimensions drawer and applying selection states...
+[32mINFO    [0m HomePage:home_page.py:120 Submitting query information criteria parameters to initialize compilation workflow execution...
+[32mINFO    [0m HomePage:home_page.py:129 Captured current address path query parameters string: https://www.makemytrip.com/hotels/hotel-listing/?checkin=05272026&city=CTBAL9d5bd6c3&checkout=05302026&roomStayQualifier=2e0e&locusId=CTBAL9d5bd6c3&country=IDN&locusType=city&searchText=Bali&regionNearByExp=3&rsc=1e2e0e
+[32mINFO    [0m HomePage:base_page.py:25 Screenshot successfully logged onto target path reference location: C:\Users\DELL\OneDrive\Desktop\wipro capstone\Makemytrip\screenshots\Search_Submission_200_OK_State_145230.png
+[32mINFO    [0m HomePage:home_page.py:132 Executing URL direct-load escape bypass sequence to dodge direct raw API rendering faults...
+[32mINFO    [0m HotelDetailsPage:hotel_details_page.py:43 Applying 5-Star hotel results modifier...
+[32mINFO    [0m HotelDetailsPage:hotel_details_page.py:64 Selecting primary top-listed hotel choice card...
+[32mINFO    [0m HotelDetailsPage:hotel_details_page.py:95 Synchronizing tab session instances...
+[32mINFO    [0m HotelDetailsPage:hotel_details_page.py:105 Adjusting viewport positioning to clear the floating AI overlay view block...
+[31m[1mERROR   [0m HotelDetailsPage:base_page.py:27 Failed to extract and capture page layout snapshot sequence: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff65e327de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff65e327e50+14900]
+	uc_driver!(No symbol) [0x7ff65e08d396]
+	uc_driver!(No symbol) [0x7ff65e0d8e76]
+	uc_driver!(No symbol) [0x7ff65e10ff62]
+	uc_driver!(No symbol) [0x7ff65e109d7f]
+	uc_driver!(No symbol) [0x7ff65e109543]
+	uc_driver!(No symbol) [0x7ff65e056325]
+	uc_driver!GetHandleVerifier [0x7ff65e63cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff65e637375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff65e65bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff65e346045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff65e34ecec+3b79c]
+	uc_driver!(No symbol) [0x7ff65e0550bc]
+	uc_driver!GetHandleVerifier [0x7ff65e7a0b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7ff8b85d7374+14]
+	ntdll!RtlUserThreadStart [0x7ff8b8b1cc91+21]
+[32mINFO    [0m Conftest:conftest.py:178 ========== CLOSING TEST ==========
+[32mINFO    [0m Conftest:conftest.py:181 BROWSER CLOSED SUCCESSFULLY
