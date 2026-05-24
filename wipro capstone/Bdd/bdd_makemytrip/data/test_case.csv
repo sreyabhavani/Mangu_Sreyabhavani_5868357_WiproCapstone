@@ -1,4 +1,5 @@
-test_scenario,destination,firstName,lastName,email,mobileNumber,pan_number,expected_result
-Positive_Booking_02,Bali,Amit,Kumar,amit.kumar@gmail.com,9876543210,XYZWX5678Z,Success_Redirect_To_Payment
-Positive_Booking_03,Bali,Pooja,Patel,pooja.patel@gmail.com,9112233445,LMNOP9876Q,Success_Redirect_To_Payment
-Negative_Booking_01,Bali,Amit,Kumar,ammit@kumar.com.com,9876543210,NOT-A-PAN,incorrect psn number error
+test_scenario,destination,firstName,lastName,email,mobileNumber,expected_result
+Positive_Standard_Booking_1,Hyderabad,Amit,Kumar,amit.kumar@gmail.com,9876543210,Success_Redirect_To_Payment
+Positive_Standard_Booking_2,Bangalore,Pooja,Patel,pooja.patel@gmail.com,9112233445,Success_Redirect_To_Payment
+Negative_Missing_FirstName,Hyderabad,,Kumar,ammit@kumar.com,9876543210,ValidationError_FirstNameRequired
+Negative_Missing_Email,Bangalore,Pooja,Patel,,9112233445,ValidationError_EmailRequired
