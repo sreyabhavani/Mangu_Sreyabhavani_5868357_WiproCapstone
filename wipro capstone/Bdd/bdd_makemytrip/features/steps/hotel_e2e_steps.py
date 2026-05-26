@@ -129,57 +129,51 @@
 #         details_page.click_book_now_on_details_page()
 #
 #
-# # --- PHASE 3: REVIEW PAGE & DATA ENTRY ---
-#
-# @when('I fill guest details from legacy guest_date.csv row')
-# def step_impl(context):
-#     raw_data = CsvReader.get_test_data("data/guest_date.csv", "1")
-#
-#     if not raw_data:
-#         raise ValueError("No data rows could be read from data/guest_date.csv")
-#
-#     data_set = raw_data.copy()
-#
-#     # Mapping the data safely
-#     data_set['firstName'] = data_set.get('firstName', data_set.get('firstName'))
-#     data_set['first_name'] = data_set.get('firstName')
-#
-#     data_set['lastName'] = data_set.get('lastName', data_set.get('lastName'))
-#     data_set['last_name'] = data_set.get('lastName')
-#
-#     data_set['mobileNumber'] = data_set.get('mobileNumber', data_set.get('mobileNumber'))
-#     data_set['mobile'] = data_set.get('mobileNumber')
-#
-#     data_set['panNumber'] = data_set.get('panNumber', data_set.get('panNumber'))
-#     data_set['pan_number'] = data_set.get('panNumber')
-#
-#     data_set['email'] = data_set.get('email', '')
-#
-#     booking_page = BookingPage(context.driver)
-#     booking_page.fill_guest_details(data_set)
 #
 #
-# @when('I handle secure trip options and continue to payment')
-# def step_impl(context):
-#     booking_page = BookingPage(context.driver)
-#     booking_page.handle_secure_trip_and_continue()
+#     # --- PHASE 3: REVIEW PAGE & DATA ENTRY ---
 #
+#     @when('I fill guest details from legacy guest_date.csv row')
+#     def step_impl(context):
+#         """
+#         Reads data from CSV and fills the booking form.
+#         The logic in BookingPage handles the masking and input focus issues.
+#         """
+#         # 1. Fetch raw data from CSV
+#         raw_data = CsvReader.get_test_data("data/guest_date.csv", "1")
 #
-# # --- PHASE 4: GATEWAY TRANSITION VERIFICATION ---
+#         if not raw_data:
+#             raise ValueError("No data rows could be read from data/guest_date.csv")
 #
-# @then('the system should transition to the payment gateway and capture an Allure screenshot')
-# def step_impl(context):
-#     time.sleep(15)  # Retain browser visualization status exactly as coded
+#         # 2. Log for verification: Ensure the dictionary keys match the CSV header
+#         print(f"DEBUG: Retrieved CSV Data: {raw_data}")
 #
-#     current_url = context.driver.current_url
-#     assert "hotel-review" not in current_url or "checkout" in current_url or "payment" in current_url, \
-#         f"Failed to transition outside hotel review space. Landing page URL: {current_url}"
+#         # 3. Pass the data to the BookingPage logic
+#         booking_page = BookingPage(context.driver)
+#         booking_page.fill_guest_details(raw_data)
 #
-#     allure.attach(
-#         context.driver.get_screenshot_as_png(),
-#         name="Final_Gateway_State_Verification",
-#         attachment_type=allure.attachment_type.PNG
-#     )
+#     @when('I handle secure trip options and continue to payment')
+#     def step_impl(context):
+#         booking_page = BookingPage(context.driver)
+#         booking_page.handle_secure_trip_and_continue()
+#
+#     # --- PHASE 4: GATEWAY TRANSITION VERIFICATION ---
+#
+#     @then('the system should transition to the payment gateway and capture an Allure screenshot')
+#     def step_impl(context):
+#         # Wait for the transition to finish
+#         time.sleep(15)
+#
+#         current_url = context.driver.current_url
+#         assert "hotel-review" not in current_url or "checkout" in current_url or "payment" in current_url, \
+#             f"Failed to transition outside hotel review space. Landing page URL: {current_url}"
+#
+#         allure.attach(
+#             context.driver.get_screenshot_as_png(),
+#             name="Final_Gateway_State_Verification",
+#             attachment_type=allure.attachment_type.PNG
+#         )
+#
 
 import os
 import time
@@ -194,7 +188,7 @@ from pages.booking_page import BookingPage
 from utils.csv_reader import CsvReader
 
 
-# --- PHASE 1: HOMEPAGE FLOW & ANTI-BOT BYPASSES ---
+#--- PHASE 1: HOMEPAGE FLOW & ANTI-BOT BYPASSES ---
 
 @given('I navigate to the MakeMyTrip homepage')
 def step_impl(context):
